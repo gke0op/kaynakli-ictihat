@@ -16,7 +16,8 @@ sürümle indirir, imzasını (SHA-256) doğrular, kendi kendini sınar ve adım
 |---|---|
 | `kontrol "<künye>"` | Künye var mı? **BULUNDU / KISMEN / YALNIZ İKİNCİL KAYNAKTA BULUNDU / BULUNAMADI** |
 | `denetle <dosya>` | Dilekçedeki (txt, md, pdf, docx, udf) tüm Yargıtay künyelerini denetler |
-| `getir "<künye>"` · `cikar Kn --kelime …` | Karar metnini getirir, ilgili paragrafları birebir döker |
+| `konu k1 k2 --daire …` | Konu araması: 9,8 milyon kararın tam metninde terim arar, en çok geçen kararları getirir |
+| `getir "<künye>"` · `cikar Kn --kelime …` | Karar metnini getirir, ilgili paragrafları birebir döker; her paragrafın kimin sözü olduğunu (Yargıtay / alt mahkeme / taraf / karşı oy) yazar |
 | `onayla` · `reddet` | İnsanın kararı kayda geçer |
 | `dogrula <taslak>` | Taslaktaki `[[Kn-Pm]]` etiketlerini onaylı metinle değiştirir, etiketsiz künyeleri işaretler |
 | `kur` · `oztest` | Künye dizinini kurar · kendini sınar (geçmezse kullanılmaz) |
@@ -39,7 +40,7 @@ hukukçu karar verir. "BULUNAMADI", taranan kaynaklarda bulunamadı demektir. Hu
 
 ## Sürüm
 
-**v2.1** = commit `8ba8e3dab78f72f7181c8bdec0de8123eeaeaa91` (önceki: v2.0 = `8afc5c2`). Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
+**v2.3** = commit `076fdf348af149d99b2590a9abeec885b5c6192e` (önceki: v2.1 = `8ba8e3d`, v2.0 = `8afc5c2`). Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
 
 ## Doğrulama
 

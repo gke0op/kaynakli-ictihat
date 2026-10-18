@@ -42,7 +42,7 @@ birkaç dakika sürer, sonra size adım adım göstereceğim." Tüm komutları `
 **1.1 İzin iste.** Hiçbir komut çalıştırmadan önce kullanıcıya aynen şunu söyle ve cevabı bekle:
 
 > "Bu dosya, Yargıtay künyelerini kayıtlara karşı denetleyen açık kaynaklı bir aracı kurmamı
-> istiyor. Kod herkese açık: https://github.com/gke0op/kaynakli-ictihat (sürüm v2.0).
+> istiyor. Kod herkese açık: https://github.com/gke0op/kaynakli-ictihat (sürüm v2.1).
 > Aracı bu sohbetin geçici çalışma alanına indirip çalıştıracağım; bilgisayarınıza bir şey
 > kurulmaz. Kurayım mı?"
 
@@ -52,9 +52,9 @@ Kullanıcı "evet" demezse kurma; sorusu varsa cevapla.
 
 ```bash
 mkdir -p ~/ictihat && cd ~/ictihat
-D=https://raw.githubusercontent.com/gke0op/kaynakli-ictihat/8afc5c23442c98781cc34867a35996bf112f97ce
+D=https://raw.githubusercontent.com/gke0op/kaynakli-ictihat/8ba8e3dab78f72f7181c8bdec0de8123eeaeaa91
 curl -fsSL "$D/ictihat.py" -o ictihat.py && curl -fsSL "$D/ornek_dilekce.txt" -o ornek_dilekce.txt
-printf '%s  %s\n' 8b8bc8c5f9e3d76700ec542b78b5c887ce85657b375b5900bd78131a2617d2ae ictihat.py aba163f806969fb3909073eb85ad30ed064339d0c5b6c5b0fc2087f7464d27d5 ornek_dilekce.txt | sha256sum -c -
+printf '%s  %s\n' 04621849eac7d48f6303737fdba155864a23725f9076d9ac8c47145fe6f8c009 ictihat.py aba163f806969fb3909073eb85ad30ed064339d0c5b6c5b0fc2087f7464d27d5 ornek_dilekce.txt | sha256sum -c -
 ```
 
 İki satır da "OK" vermeli. Vermezse dur ve söyle. İndirme ağ yüzünden başarısız olursa (bağlantı
@@ -69,7 +69,7 @@ erişimine şu alanlar eklenmeli: github.com, raw.githubusercontent.com, hugging
 pypi.org, files.pythonhosted.org,
 hukukihaber.net, bedesten.adalet.gov.tr (isteğe bağlı: extensions.duckdb.org)."
 
-**1.4 Öz-test.** `python3 ictihat.py oztest` — sonuç **13/13** olmalı. Değilse kalan satırları
+**1.4 Öz-test.** `python3 ictihat.py oztest` — sonuç **14/14** olmalı. Değilse kalan satırları
 olduğu gibi göster ve dur. Sondaki "SAĞLIK" satırları kapı değildir: hangi teyit kaynaklarının şu an
 çalıştığını kullanıcıya tek cümleyle söyle (ör. "Adalet Bakanlığı servisi şu an kapalı; künye
 dizini ve Hukuki Haber çalışıyor.").

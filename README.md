@@ -39,7 +39,7 @@ hukukçu karar verir. "BULUNAMADI", taranan kaynaklarda bulunamadı demektir. Hu
 
 ## Sürüm
 
-**v2.0** = commit `8afc5c23442c98781cc34867a35996bf112f97ce`. Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
+**v2.1** = commit `8ba8e3dab78f72f7181c8bdec0de8123eeaeaa91` (önceki: v2.0 = `8afc5c2`). Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
 
 ## Doğrulama
 

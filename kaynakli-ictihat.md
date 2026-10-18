@@ -44,7 +44,7 @@ birkaç dakika sürer, sonra size adım adım göstereceğim." Tüm komutları `
 **1.1 İzin iste.** Hiçbir komut çalıştırmadan önce kullanıcıya aynen şunu söyle ve cevabı bekle:
 
 > "Bu dosya, Yargıtay künyelerini kayıtlara karşı denetleyen açık kaynaklı bir aracı kurmamı
-> istiyor. Kod herkese açık: https://github.com/gke0op/kaynakli-ictihat (sürüm v2.3).
+> istiyor. Kod herkese açık: https://github.com/gke0op/kaynakli-ictihat (sürüm v2.4).
 > Aracı bu sohbetin geçici çalışma alanına indirip çalıştıracağım; bilgisayarınıza bir şey
 > kurulmaz. Kurayım mı?"
 
@@ -54,9 +54,9 @@ Kullanıcı "evet" demezse kurma; sorusu varsa cevapla.
 
 ```bash
 mkdir -p ~/ictihat && cd ~/ictihat
-D=https://raw.githubusercontent.com/gke0op/kaynakli-ictihat/076fdf348af149d99b2590a9abeec885b5c6192e
+D=https://raw.githubusercontent.com/gke0op/kaynakli-ictihat/e1595fd8725d30e97d1abac432f94e8edc699a9e
 curl -fsSL "$D/ictihat.py" -o ictihat.py && curl -fsSL "$D/ornek_dilekce.txt" -o ornek_dilekce.txt
-printf '%s  %s\n' 00ec4146d1b353f398a1fcd198d649e8fa9464026de592b3f1a400ddb7d88c0f ictihat.py aba163f806969fb3909073eb85ad30ed064339d0c5b6c5b0fc2087f7464d27d5 ornek_dilekce.txt | sha256sum -c -
+printf '%s  %s\n' 7b632fb726cb784761e49a53d92b00d1cf0611121480acf18332f7407dfd517a ictihat.py aba163f806969fb3909073eb85ad30ed064339d0c5b6c5b0fc2087f7464d27d5 ornek_dilekce.txt | sha256sum -c -
 ```
 
 İki satır da "OK" vermeli. Vermezse dur ve söyle. İndirme ağ yüzünden başarısız olursa (bağlantı
@@ -71,7 +71,7 @@ erişimine şu alanlar eklenmeli: github.com, raw.githubusercontent.com, hugging
 pypi.org, files.pythonhosted.org,
 hukukihaber.net, bedesten.adalet.gov.tr (isteğe bağlı: extensions.duckdb.org)."
 
-**1.4 Öz-test.** `python3 ictihat.py oztest` — sonuç **17/17** olmalı. Değilse kalan satırları
+**1.4 Öz-test.** `python3 ictihat.py oztest` — sonuç **18/18** olmalı. Değilse kalan satırları
 olduğu gibi göster ve dur. Sondaki "SAĞLIK" satırları kapı değildir: hangi teyit kaynaklarının şu an
 çalıştığını kullanıcıya tek cümleyle söyle (ör. "Adalet Bakanlığı servisi şu an kapalı; künye
 dizini ve Hukuki Haber çalışıyor.").
@@ -125,7 +125,7 @@ Hayır derse: "Bu sohbette istediğiniz zaman bir künye yazmanız ya da dosya e
 | "Bu künye gerçek mi?" | `python3 ictihat.py kontrol "<künye>"` |
 | "Bu dilekçedeki atıfları denetle" | `python3 ictihat.py denetle <dosya>` |
 | "Şu kararın metni / şu konudaki paragraf" | `getir "<künye>"` → `cikar Kn --kelime ...` |
-| "Şu konuda Yargıtay kararı bul" | **Önce** `konu k1 k2 [k3] --daire "<daire>"`: 9,8 milyon kararın tam metninde arar (1–3 dk). 2–3 ayırt edici hukuki terim kullan (ör. `"değişim oran" birleşme`), sonuç azsa bir terimi çıkar, çoksa ekle ya da `--yildan` ver. Ardından gerekirse `ara` (Bakanlık servisi açıksa) ve web araması; webden gelen **her adayı `kontrol` ile doğrula**. Sonra `getir` / `cikar`. |
+| "Şu konuda Yargıtay kararı bul" | **Önce** `konu k1 k2 [k3] --daire "<daire>"` (tüm hukuk ya da ceza daireleri için `--daire hukuk` / `--daire ceza`): 9,8 milyon kararın tam metninde arar (1–3 dk). 2–3 ayırt edici hukuki terim kullan (ör. `"değişim oran" birleşme`), sonuç azsa bir terimi çıkar, çoksa ekle ya da `--yildan` ver. Ardından gerekirse `ara` (Bakanlık servisi açıksa) ve web araması; webden gelen **her adayı `kontrol` ile doğrula**. Sonra `getir` / `cikar`. |
 | Taslak yazma | Atıf yalnız `[[Kn]]` / `[[Kn-Pm]]` etiketiyle; teslimden önce `dogrula` zorunlu. |
 | Durum | `python3 ictihat.py liste` |
 

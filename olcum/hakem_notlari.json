@@ -1,0 +1,274 @@
+{
+ "v01_birlesme": [
+  {
+   "id": "K1-P27",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay TTK 191/1 metnini aktararak her ortağın, payların gereğince korunmaması hâlinde ilandan itibaren iki ay içinde denkleştirme akçesi isteyebileceğini teyit ediyor; ancak bu yalnızca kanun metninin aktarımıdır, ayrıca bir yorum içermez."
+  },
+  {
+   "id": "K2-P42",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Daire, TTK 192 iptal davası için oylamadan sonra muhalefetin ayrıca tutanağa geçirilmesi şartı aranmadığını, ilk derece ve BAM'ın aksi kabulünü düzelterek hükme bağlıyor; bu, azınlık ortağın dava ehliyeti için atıf yapılabilir (ancak olumlu oy vermemiş olma şartı yine geçerlidir)."
+  },
+  {
+   "id": "K10-P40",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay TTK 192 metnini aktararak olumlu oy vermemiş ve bunu tutanağa geçirmiş ortağın iki ay içinde iptal davası açabileceğini belirtiyor; yalnızca kanun aktarımıdır ve iptal için 134-190. maddelerin ihlali gerektiğinden değişim oranı itirazının ayrıca bu maddelere bağlanması gerekir."
+  }
+ ],
+ "v02_bilgi_alma": [
+  {
+   "id": "K1-P24",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay'ın onadığı alt mahkeme gerekçesi, bağlı/ilişkili şirketlerle işlemler hakkında pay sahiplerinin aydınlatılmamasının bilgi alma hakkını ihlal ettiğini ve faaliyet raporu ile finansal tabloların onayına ilişkin kararların TTK 437/3'e aykırılık nedeniyle iptalini gerektirdiğini açıkça söylüyor; paragraf cümle ortasında kesiliyor."
+  },
+  {
+   "id": "K4-P23",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay'ın onadığı alt mahkeme gerekçesi, bilgi alma ve inceleme hakkı engellenen pay sahipleri bakımından finansal tablo, ibra, kâr dağıtımı ve ücret kararlarının iptalinin mümkün olduğunu belirtiyor; ancak '06.12.2018 tarihli karar' atfı nedeniyle onanan kararın bu karar olup olmadığı tam metinden teyit edilmelidir."
+  },
+  {
+   "id": "K6-P40",
+   "puan": "dolaylı",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay yalnızca TTK 437/2, 437/5, 438 ve 439'u aktarıyor; cevapsız bırakılan soru için öngörülen yol mahkemeye bilgi alma başvurusu ve özel denetim olup genel kurul kararının iptali konusunda bir şey söylemiyor (karşı taraf bu özel yolu ileri sürebilir)."
+  },
+  {
+   "id": "K7-P41",
+   "puan": "dolaylı",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay butlan rejimini ve TTK 447 uyarınca bilgi alma hakkını kanuna aykırı sınırlayan kararların batıl olduğunu anlatıyor; bu, kararın kendisinin hakkı sınırladığı hâlleri kapsar, genel kurulda soruya cevap verilmemesi nedeniyle bilanço onayının iptalini doğrudan desteklemez."
+  }
+ ],
+ "v03_marka": [
+  {
+   "id": "K12-P42",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay SMK 7/2 metnini aktararak tescilli markayla benzer işaretin aynı mallarda karıştırılma ihtimali doğuracak şekilde kullanılmasının önlenmesini isteme hakkını teyit ediyor; yalnızca kanun aktarımıdır ancak tecavüz talebinin dayanağı olarak kullanılabilir."
+  },
+  {
+   "id": "K1-P39",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "Daire, SMK uygulandığında tecavüzün tüm sonuçlarıyla giderildiğini ve ayrıca haksız rekabet hükümleriyle korunacak alan kalmadığını söylüyor; bu, müvekkilin haksız rekabet tespit ve men talebine aleyhedir (SMK tazminat kalemlerini sayması marka tecavüzü talebi için yararlıdır)."
+  },
+  {
+   "id": "K5-P33",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "Daire, kümülatif korumanın uygulama alanı kalmadığı gerekçesiyle haksız rekabetin tespiti ve men'i talebinin reddedilmesi gerektiğini belirterek kabul yönündeki kararı bozuyor; müvekkilin haksız rekabet talebine doğrudan aleyhedir."
+  },
+  {
+   "id": "K9-P34",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "Daire, tescilli marka bakımından yalnızca SMK'nın özel hükümlerinin uygulanacağını ve haksız rekabet hükümlerinin eş zamanlı uygulanmasının hukuki dayanağı olmadığını söylüyor; haksız rekabet talebine aleyhedir."
+  },
+  {
+   "id": "K11-P50",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Daire, marka tecavüzü tespit edilirse bu eylemin aynı zamanda haksız rekabet teşkil edeceğini ve BAM'ın aksi gerekçesinin isabetsiz olduğunu hükme bağlıyor; ancak aynı Dairenin daha yeni (K1-P39, K5-P33, K9-P34) kararları aksi yöndedir, bu içtihat çatışması dilekçede açıklanmalıdır."
+  }
+ ],
+ "v04_kefalet": [
+  {
+   "id": "K1-P47",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay TBK 583/1 metnini aktararak azami miktarın kefilin kendi el yazısıyla yazılmasının geçerlilik şartı olduğunu belirtiyor; paragraf yalnızca kanun aktarımı ve cümle parçasıdır, eş rızası konusunu içermez."
+  },
+  {
+   "id": "K3-P13",
+   "puan": "dolaylı",
+   "ses_dogru_mu": false,
+   "gerekce": "Paragraf Yargıtay'ın değil ilk derece mahkemesinin gerekçesinin özetidir (etiket 'ALT MAHKEME' olmalı) ve Yargıtay'ın bu gerekçeyi onayıp onamadığı paragraftan anlaşılmadığından, el yazısı azami miktar eksikliğinde geçersizlik görüşü Yargıtay görüşü olarak atfedilemez."
+  },
+  {
+   "id": "K4-P8",
+   "puan": "dolaylı",
+   "ses_dogru_mu": false,
+   "gerekce": "Paragraf Bölge Adliye Mahkemesinin gerekçesinin özetidir (etiket 'ALT MAHKEME' olmalı); azami miktar ve tarih eksikliğinin geçersizlik sebebi olduğu ve re'sen gözetileceği görüşü çok ilgili olsa da Yargıtay'ın onayı paragrafta görünmediğinden Yargıtay görüşü olarak gösterilemez."
+  },
+  {
+   "id": "K5-P21",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Yargıtay'ın onadığı BAM gerekçesi, eş rızasının yazılı, azami miktar ve tarihi içerir şekilde ve en geç sözleşme anında alınması gerektiğini, yokluğunda kefaletin geçersiz olduğunu ve şekil eksikliğini ileri sürmenin kendiliğinden hakkın kötüye kullanılması sayılmayacağını açıkça söylüyor; ancak müvekkil asıl borçlu şirketin ortağı veya yöneticisiyse TBK 584/3 istisnası ayrıca kontrol edilmelidir."
+  },
+  {
+   "id": "K2-P29",
+   "puan": "dolaylı",
+   "ses_dogru_mu": true,
+   "gerekce": "BAM gerekçesi eş rızasının emredici olduğunu ve usulüne uygun rıza yokluğunda kefaletin geçersizliğini söylüyor, ancak Yargıtay'ın onayı belirtilmemiştir ve paragraf şirket ortağı/yöneticisinin şirket lehine kefaletinde eş rızası aranmayacağına dair TBK 584/3 istisnasına dikkat çekmektedir; müvekkil şirket kredisine kefil olduğundan bu istisna aleyhe çıkabilir."
+  }
+ ],
+ "v05_fazla_mesai": [
+  {
+   "id": "K3-P94",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "HGK, imzalı ve ihtirazi kayıtsız bordrolarda bordrodakinden fazla çalışmanın ancak yazılı belgeyle ispatlanabileceğini söylüyor; bu kural bordroda fazla çalışma tahakkuku bulunan hâl içindir ve müvekkilin bordrolarında tahakkuk olmadığından tanıkla ispat imkânı bu paragrafta değil, ayrıca gösterilmesi gerekir, aksi hâlde karşı taraf bu paragrafı aleyhe kullanır."
+  },
+  {
+   "id": "K5-P46",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "9. HD, fazla çalışma yazılı belgelerle kanıtlanamıyorsa tanık beyanlarıyla sonuca gidilmesi gerektiğini açıkça belirtiyor; tanıkla ispat için doğrudan atıf yapılabilir."
+  },
+  {
+   "id": "K1-P31",
+   "puan": "dolaylı",
+   "ses_dogru_mu": true,
+   "gerekce": "HGK kararının konusu belirsiz alacak davasıdır; tanık anlatımına dayalı fazla çalışma alacağında hakkaniyet indirimi uygulamasına yalnızca örnek olarak değiniyor, bu nedenle tanıkla ispat veya indirim oranı konusunda bir kural koymuyor (belirsiz alacak davası açılabileceği yönüyle yararlıdır)."
+  },
+  {
+   "id": "K4-P25",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "9. HD, tanık anlatımına dayanan ve uzun süre için yüksek çıkan fazla çalışma alacağında hakkaniyet indirimi yapılmasının istikrarlı uygulama olduğunu söylüyor; konunun tam üzerinde ama işçi müvekkilin alacağını azaltacağından aleyhedir (indirimin yazılı belgeye dayanan kısımlara uygulanmayacağı yönü lehe kullanılabilir)."
+  }
+ ],
+ "v06_is_kazasi": [
+  {
+   "id": "K1-P56",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "10. HD, işverenin işçinin yaşam ve sağlığını korumak için deneyimlerin zorunlu kıldığı ve teknik olarak uygulanabilir tüm önlemleri almakla yükümlü olduğunu İş Kanunu 77'yle birlikte açıklıyor; işverenin kusuru için doğrudan atıf yapılabilir."
+  },
+  {
+   "id": "K3-P48",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "10. HD, iskeleden düşme olayında hangi önlemlerin alınıp alınmadığını açıkça tespit eden ve raporlar arasındaki çelişkiyi gideren A sınıfı iş güvenliği uzmanı bilirkişi heyeti raporu alınması gerektiğini söylüyor; eksik kusur raporuna itiraz için kullanılabilir, ancak olayda işçinin kendi kurduğu iskele ve %20 kusuru bulunduğu da not edilmelidir."
+  },
+  {
+   "id": "K4-P131",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "10. HD, inşaat iş kazasında SGK müfettiş raporu, ceza ve rücu dosyalarındaki kusur raporları arasındaki çelişkiyi giderecek şekilde A sınıfı İSG uzmanlarından oluşan heyetten kusur raporu alınması gerektiğini söylüyor; eksik kusur raporuna itiraz için doğrudan kullanılabilir."
+  },
+  {
+   "id": "K2-P53",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "10. HD, iskelenin çökmesiyle yüksekten düşen ve sürekli iş göremezliğe uğrayan işçi lehine, iş göremezlik oranı ve işverenin kusur ağırlığı gözetildiğinde hükmedilen manevi tazminatın az olduğunu belirtiyor; manevi tazminatın miktarı için atıf yapılabilir."
+  }
+ ],
+ "v07_ziynet": [
+  {
+   "id": "K4-P9",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "Paragraf, ziynetlerin kadına bağışlanmış sayıldığını, tanıkla bozdurma ispatlanınca ispat yükünün yer değiştirdiğini ve davalının iade edilmemek üzere verildiğini ispat etmedikçe iade ile yükümlü olduğunu söylüyor; ancak metin HGK kararı içinde tırnakla aktarılmış bir Özel Daire bozma gerekçesi görünümündedir, HGK'nın bu görüşü benimseyip benimsemediği tam metinden doğrulanmalıdır."
+  },
+  {
+   "id": "K2-P72",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "HGK, ziynetlerin aksine anlaşma veya yerel adet yoksa kime takılmış olursa olsun kadına ait sayıldığını ve davalının düğün borçları için kullandığını ikrar etmesi üzerine davanın kısmen kabulü gerektiğini söylüyor; mülkiyet karinesi ve ikrar yönüyle lehe, ancak aynı paragraf kadının alındığı iddiasını ispatlayamadığını da belirtiyor."
+  },
+  {
+   "id": "K1-P47",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "HGK, ziynetlerin olağan olarak kadının üzerinde olduğunun kabulü gerektiğini ve kadının ziynetlerin varlığını ve elinden alınıp bozdurulduğunu ispat yükü altında olduğunu söylüyor; ispat yükünü müvekkile yüklediğinden aleyhedir."
+  },
+  {
+   "id": "K5-P50",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "HGK, kadının ziynetlerin cins, sayı ve miktar olarak varlığını ve kendisinden alınıp iade edilmediğini şüpheye yer vermeyecek şekilde kanıtlamakla yükümlü olduğunu söylüyor; ispat yükü bakımından müvekkil aleyhinedir ve bilinmesi gerekir."
+  }
+ ],
+ "v08_haksiz_tahrik": [
+  {
+   "id": "K1-P9",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": false,
+   "gerekce": "Paragraf bir bozma gerekçesidir, yani Yargıtay'ın kendi sözüdür (etiket 'YARGITAY' olmalı); maktulden sanığa ve ailesine yönelen, zamana yayılan sürekli tehdit, hakaret ve şiddetin, sanık pusu kurup tasarlayarak öldürse dahi haksız tahrik oluşturduğunu ve asgari indirimle yetinilmemesi gerektiğini söylüyor."
+  },
+  {
+   "id": "K5-P10",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": false,
+   "gerekce": "Paragraf Yargıtay'ın bozma gerekçesidir (etiket 'YARGITAY' olmalı) ve maktulden sanığa ve aile fertlerine yönelen, zamana yayılan sürekli söz ve davranışlar nedeniyle haksız tahrik hükümlerinin uygulanması gerektiğini açıkça belirtiyor; indirim oranı konusunda bir şey söylemiyor."
+  },
+  {
+   "id": "K2-P18",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "1. CD, maktulün uzun süreli şiddet, hakaret ve tehditleri ile olay günkü öldürme tehdidi karşısında TCK 29 uyarınca azami indirim yapılması gerektiğini, 20 yıl verilmesinin hukuka aykırı olduğunu hükme bağlıyor; indirim oranı için doğrudan atıf yapılabilir, ancak olayda olay anında da ağır bir tehdit bulunduğu not edilmelidir."
+  },
+  {
+   "id": "K6-P95",
+   "puan": "dolaylı",
+   "ses_dogru_mu": false,
+   "gerekce": "Paragraf Ceza Genel Kurulunun kendi gerekçesidir (etiket 'YARGITAY' olmalı); haksız tahrik indirim oranının mahkemenin takdirinde olduğunu ancak haksız hareketin niteliği ve ağırlığına göre hakkaniyete uygun kullanılması ve üst mahkemece denetlenebileceğini söyleyen genel bir ilke olup müvekkilin olayındaki uygulamayı veya oranı kendisi kurmuyor."
+  }
+ ],
+ "v09_muris_muvazaasi": [
+  {
+   "id": "K1-P36",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "1. HD, muris muvazaasını mirasbırakanın mirasçıdan mal kaçırmak amacıyla gerçekte bağışlamak istediği tapulu taşınmazı tapuda satış gibi göstererek devretmesi olarak tanımlıyor; müvekkilin olayının hukuki nitelendirmesi için doğrudan atıf yapılabilir."
+  },
+  {
+   "id": "K5-P39",
+   "puan": "dolaylı",
+   "ses_dogru_mu": true,
+   "gerekce": "Paragrafın asıl kuralı satış bedelinin para dışında hizmet veya emek de olabileceğidir ki davalı oğul bunu gerçek satış savunması için kullanabilir; 1974 tarihli İBK'nın mal kaçırma hâlinde uygulanacağına dair cümle ise genel bir teyitten öteye geçmiyor."
+  },
+  {
+   "id": "K2-P39",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "1. HD, 1/2 sayılı İBK uyarınca gizli bağışın şekil şartlarından yoksun olduğunu ve saklı paylı olsun olmasın miras hakkı çiğnenen tüm mirasçıların resmi sözleşmenin muvazaa nedeniyle geçersizliğinin tespitini ve tapu iptalini isteyebileceğini açıkça söylüyor."
+  },
+  {
+   "id": "K6-P52",
+   "puan": "dolaylı",
+   "ses_dogru_mu": true,
+   "gerekce": "1. HD, İBK'nın yalnızca satış veya ölünceye kadar bakma görünümlü devirlerde uygulanacağını, açık bağışta ancak tenkis davası açılabileceğini söylüyor; müvekkilin olayında devir satış görünümlü olduğundan uygulama koşulunu hatırlatan ama farklı bir durumu çözen bir paragraftır."
+  }
+ ],
+ "v10_destekten_yoksun": [
+  {
+   "id": "K5-P47",
+   "puan": "dolaylı",
+   "ses_dogru_mu": true,
+   "gerekce": "HGK destekten yoksun kalma tazminatının hukuki niteliğini ve amacını (desteğin ölümünden önceki sosyal ve ekonomik durumun korunması) genel olarak açıklıyor; işletenin kendi tam kusuruyla öldüğü ve kendi sigortacısına başvurulan farklı bir olaya ilişkin olup hesaplama veya hatır taşıması indirimi hakkında kural koymuyor."
+  },
+  {
+   "id": "K7-P16",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "17. HD, destekten yoksun kalma zararının hesabında desteğin sağladığı yardım miktarının belirlenmesi gerektiğini ve ispat edilemezse hâkimin yakınlık, yaş, sosyal ve ekonomik çevre gibi unsurlarla takdir edeceğini açıklıyor; hesaplama yöntemi için atıf yapılabilir."
+  },
+  {
+   "id": "K6-P23",
+   "puan": "doğrudan destekliyor",
+   "ses_dogru_mu": true,
+   "gerekce": "4. HD, pay esasını açıkça belirtiyor: çocuksuz durumda desteğe ve eşe %50'şer, çocuk varsa desteğe ve eşe ikişer, çocuklara ve ana babaya birer pay; eşin destek payının hesabı için doğrudan atıf yapılabilir."
+  },
+  {
+   "id": "K1-P27",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": true,
+   "gerekce": "HGK, hatır taşımasının koşullarını (karşı edim olmaması veya önemsiz olması, taşımanın münhasıran ya da büyük ölçüde yolcunun yararına olması) ve bunun hakkaniyet gereği tazminattan indirim sebebi olduğunu söylüyor; konunun tam üzerinde ama indirimi doğruladığından müvekkil aleyhinedir (koşullar indirimi tartışmak için kullanılabilir)."
+  },
+  {
+   "id": "K3-P13",
+   "puan": "ilgili ama aleyhe",
+   "ses_dogru_mu": false,
+   "gerekce": "Paragraf Yargıtay 17. HD'nin kendi gerekçesidir (etiket 'YARGITAY' olmalı) ve hatır taşımalarında TBK 51 uyarınca tazminattan uygun indirim yapılmasının yerleşik içtihat olduğunu söylüyor; müvekkilin alacağını azalttığından aleyhedir ve paragraf cümle ortasında kesiliyor."
+  }
+ ]
+}

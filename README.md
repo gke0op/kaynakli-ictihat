@@ -33,6 +33,10 @@ sürümle indirir, imzasını (SHA-256) doğrular, kendi kendini sınar ve adım
 - Kaynaklara kendini tanıtarak, istekler arasında bekleyerek erişilir; captcha, giriş ya da
   engel aşılmaz.
 
+## Ölçüm
+
+On farklı hukuk sorusunda (birleşme, marka, kefalet, iş kazası, haksız tahrik…) önceden yazılmış ölçütle: **9/10 başarılı**, uydurma künye 0. Ayrıntı, hakem notları ve on taslak: [olcum/](olcum/README.md).
+
 ## Sınırlar
 
 Araç atfın **varlığını** ve metnin **birebirliğini** denetler; alıntının iddiayı desteklediğine
@@ -40,7 +44,7 @@ hukukçu karar verir. "BULUNAMADI", taranan kaynaklarda bulunamadı demektir. Hu
 
 ## Sürüm
 
-**v2.3** = commit `076fdf348af149d99b2590a9abeec885b5c6192e` (önceki: v2.1 = `8ba8e3d`, v2.0 = `8afc5c2`). Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
+**v2.4** = commit `e1595fd8725d30e97d1abac432f94e8edc699a9e` (önceki: v2.3 = `076fdf3`, v2.1 = `8ba8e3d`, v2.0 = `8afc5c2`). Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
 
 ## Doğrulama
 

@@ -52,7 +52,7 @@ Kullanıcı "evet" demezse kurma; sorusu varsa cevapla.
 
 ```bash
 mkdir -p ~/ictihat && cd ~/ictihat
-D=https://raw.githubusercontent.com/gke0op/kaynakli-ictihat/v2.0
+D=https://raw.githubusercontent.com/gke0op/kaynakli-ictihat/8afc5c23442c98781cc34867a35996bf112f97ce
 curl -fsSL "$D/ictihat.py" -o ictihat.py && curl -fsSL "$D/ornek_dilekce.txt" -o ornek_dilekce.txt
 printf '%s  %s\n' 8b8bc8c5f9e3d76700ec542b78b5c887ce85657b375b5900bd78131a2617d2ae ictihat.py aba163f806969fb3909073eb85ad30ed064339d0c5b6c5b0fc2087f7464d27d5 ornek_dilekce.txt | sha256sum -c -
 ```

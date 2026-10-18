@@ -37,6 +37,10 @@ sürümle indirir, imzasını (SHA-256) doğrular, kendi kendini sınar ve adım
 Araç atfın **varlığını** ve metnin **birebirliğini** denetler; alıntının iddiayı desteklediğine
 hukukçu karar verir. "BULUNAMADI", taranan kaynaklarda bulunamadı demektir. Hukuki görüş değildir.
 
+## Sürüm
+
+**v2.0** = commit `8afc5c23442c98781cc34867a35996bf112f97ce`. Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
+
 ## Doğrulama
 
 ```

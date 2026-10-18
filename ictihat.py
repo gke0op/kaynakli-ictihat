@@ -16,7 +16,8 @@ Komutlar:
   denetle <dosya>                  dosyadaki (txt/md/pdf/docx/udf) tüm Yargıtay künyelerini denetler
   getir "<künye>"|<belge_no>       kararın tam metnini kayda alır (K1, K2 ...)
   cikar <Kn> --kelime k1 k2        ilgili paragrafları BİREBİR döker
-  ara "<ifade>" --kelime ...       Bakanlık servisi açıksa konu araması
+  konu k1 k2 ... [--daire "11. HD"] [--yildan 2015]   korpusun TAM METNİNDE konu araması
+  ara "<ifade>"                    Bakanlık servisi açıksa konu araması
   onayla <Kn> hepsi|P3 ...         insan "evet" dedikten sonra
   reddet <Kn>                      insan "hayır" dedikten sonra
   dogrula <taslak.md>              [[Kn]]/[[Kn-Pm]] etiketlerini yerleştirir, kaynaksız künyeyi yakalar
@@ -41,12 +42,21 @@ import urllib.error
 import urllib.request
 import zipfile
 
-SURUM = "2.1"
+SURUM = "2.3"
 UA = f"kaynakli-ictihat/{SURUM}"
 # Kendi aynamız (doluysa önce bu denenir); boşsa dizin asıl korpustan kurulur.
 DIZIN_AYNA = os.environ.get("ICTIHAT_DIZIN_URL", "")
-KORPUS = ("https://huggingface.co/datasets/mrfg/turkish-court-decisions/resolve/main/"
-          "data/yargitay/train-{:05d}-of-00017.parquet")
+def _ayar(anahtar: str):
+    """İsteğe bağlı yerel ayar: çalışma klasöründeki ictihat_ayar.json (ör. korpusun yerel kopyası)."""
+    try:
+        return json.load(open("ictihat_ayar.json", encoding="utf-8")).get(anahtar)
+    except (OSError, ValueError):
+        return None
+
+
+KORPUS = (os.environ.get("ICTIHAT_KORPUS") or _ayar("korpus") or
+          "https://huggingface.co/datasets/mrfg/turkish-court-decisions/resolve/main/data/yargitay/"
+          "train-{:05d}-of-00017.parquet")
 PARCA_SAYISI = 17
 API = "https://bedesten.adalet.gov.tr/emsal-karar"
 SAYFA = "https://mevzuat.adalet.gov.tr/ictihat"
@@ -624,6 +634,74 @@ def paragraflar(metin: str, hedef: int = 700) -> list[str]:
     return cikti
 
 
+_BASLIK = re.compile(r"^\s*([IVX]+)\s*[.\-]\s*(.{2,60})$")
+_ALT = re.compile(r"^\s*([A-H]|\d{1,2})\s*[.\-)]\s*(.{2,70})$")
+_KARSI_OY = re.compile(r"^\s*(K\s*A\s*R\s*Ş\s*I\s*O\s*Y|KARŞI\s+OY|MUHALEFET\s+ŞERHİ|AZLIK\s+OYU)", re.I)
+_DUSUNULDU = re.compile(r"gereği\s+(?:görüşülüp\s+)?düşünüldü|gereği\s+görüşüldü", re.I)
+
+
+def bolumle(ps: list[str]) -> list[str]:
+    """Her paragrafın kimin sesi olduğunu kestirir: YARGITAY / ALT MAHKEME / TARAF / KARŞI OY /
+    SONUÇ / BELİRSİZ. Yeni biçimde (I. DAVA … V. TEMYİZ) başlıklara, eski biçimde
+    "gereği görüşülüp düşünüldü" ifadesine bakar. Kestirimdir; insan okur."""
+    etiket = ["BELİRSİZ"] * len(ps)
+    basliklar = [(i, m.group(2).upper()) for i, p in enumerate(ps) if (m := _BASLIK.match(p)) and len(p) < 80]
+    if basliklar:
+        durum, temyizde = "BELİRSİZ", False
+        sira = dict(basliklar)
+        for i, p in enumerate(ps):
+            if i in sira:
+                b = tr_kucuk(sira[i])
+                temyizde = False
+                if "dava" in b or "cevap" in b:
+                    durum = "TARAF"
+                elif "ilk derece" in b or "istinaf" in b or "bölge" in b:
+                    durum = "ALT MAHKEME"
+                elif "temyiz" in b or "gerekçe" in b or "değerlendirme" in b:
+                    durum, temyizde = "YARGITAY", True
+                elif "karar" in b or "hüküm" in b or "sonuç" in b:
+                    durum = "SONUÇ"
+            elif temyizde and (m := _ALT.match(p)) and len(p) < 90:
+                a = tr_kucuk(m.group(2))
+                durum = "TARAF" if ("sebep" in a or "başvuran" in a) else "YARGITAY"
+            if re.match(r"^\s*[IVX]+\s*[.\-]\s*(SONUÇ|KARAR|HÜKÜM)", p):
+                durum = "SONUÇ"
+            if _KARSI_OY.match(p):
+                durum = "KARŞI OY"
+            etiket[i] = durum
+        return _sonucla(ps, etiket)
+    # eski biçim: "Kararı … temyiz etmiştir." cümlesinden sonrası Yargıtay'ın kendi değerlendirmesidir
+    son = max((i for i, p in enumerate(ps)
+               if len(p) < 400 and re.search(r"temyiz\s+(?:etmiş|edilmiş|edilmekle|olunmuş)", p, re.I)), default=None)
+    durum = "BELİRSİZ"
+    for i, p in enumerate(ps):
+        if son is not None:
+            if i > son:
+                durum = "YARGITAY"
+            elif re.match(r"^\s*(Davacı|Davalı|Müdahil|Sanık|Katılan|Şikayetçi|Alacaklı|Borçlu)", p):
+                durum = "TARAF"
+            elif re.match(r"^\s*(Mahkemece|İlk\s+derece|Bölge|Yerel\s+mahkeme)", p, re.I):
+                durum = "ALT MAHKEME"
+            elif i <= son and durum == "BELİRSİZ" and i > 1:
+                durum = "ALT MAHKEME / TARAF"
+        if re.match(r"^\s*(SONUÇ|HÜKÜM)\s*:?", p):
+            durum = "SONUÇ"
+        if _KARSI_OY.match(p):
+            durum = "KARŞI OY"
+        etiket[i] = durum
+    return _sonucla(ps, etiket)
+
+
+def _sonucla(ps: list[str], etiket: list[str]) -> list[str]:
+    """Alt mahkeme paragraflarına Yargıtay'ın o kararı onayıp onaymadığını ekler."""
+    tum = " ".join(ps[-4:])
+    onay = re.search(r"ONANMASINA|esastan\s+reddine|itirazlarının\s+reddi", tum, re.I)
+    bozma = re.search(r"BOZULMASINA|kaldırılmasına", tum, re.I)
+    ek = " (Yargıtay onadı)" if onay and not bozma else " (Yargıtay bozdu)" if bozma and not onay else \
+        " (kısmen onama/bozma)" if onay and bozma else ""
+    return [e + ek if e.startswith("ALT MAHKEME") else e for e in etiket]
+
+
 def korpus_metin(belge: str, parca: int | None) -> str | None:
     con = dizin()
     parcalar = [parca] if parca is not None else range(PARCA_SAYISI)
@@ -826,14 +904,19 @@ def k_cikar(a) -> int:
         raise SystemExit(f"{a.kno} kayıtta yok. Önce: getir")
     d = k["kararlar"][a.kno]
     ps = paragraflar(_metin(a.kno))
-    secim = sorted(sorted(puanla(ps, a.kelime), key=lambda t: (-t[1], -t[2], t[0]))[:a.en_fazla])
+    ses = bolumle(ps)
+    def oncelik(e: str) -> int:
+        return 0 if e == "YARGITAY" else 1 if e == "SONUÇ" else 2 if e == "BELİRSİZ" else \
+            3 if "onadı" in e else 4 if e.startswith("ALT MAHKEME") else 5 if e == "TARAF" else 6
+    secim = sorted(sorted(puanla(ps, a.kelime),
+                          key=lambda t: (oncelik(ses[t[0]]), -t[1], -t[2], t[0]))[:a.en_fazla])
     etiket = "Resmî sayfa" if SAYFA in (d["kaynak"] or "") else "Kaynak sayfa"
     out = [f"## {a.kno} — {atif(d)}", f"{etiket}: {d['kaynak']} · Metin kaynağı: {d.get('metin_kaynagi')}",
            f"Aranan: {', '.join(a.kelime)} · Gösterilen: {len(secim)} / {len(ps)} paragraf", ""]
     if not secim:
         out.append("Bu kararda aranan kelimelerin geçtiği paragraf yok.")
     for i, f, _ in secim:
-        out += [f"**{a.kno}-P{i + 1}**  ({f}/{len(a.kelime)} kelime)",
+        out += [f"**{a.kno}-P{i + 1}**  [{ses[i]}{' GEREKÇESİ' if ses[i] == 'YARGITAY' else ''}]  ({f}/{len(a.kelime)} kelime)",
                 "> " + _vurgula(ps[i], a.kelime), ""]
     blok = "\n".join(out)
     print(blok)
@@ -842,7 +925,86 @@ def k_cikar(a) -> int:
                              key=lambda x: int(x[1:]))
     kayit_yaz(k)
     print("— Metin kaynağından birebir alınmıştır; kalın yazılar yalnız vurgudur. "
+          "Köşeli parantez, paragrafın kimin sesi olduğunu gösterir (kestirim). "
           "Hangi paragrafları kullanmak istersiniz? (ör. K1-P7) Hiçbiri uygun değilse: hayır.")
+    return 0
+
+
+def _desen(k: str) -> str:
+    """Bir anahtar kelimeyi ILIKE desenine çevirir (kök; sert ünsüz yumuşaması)."""
+    k = tr_kucuk(k.strip())
+    k = k[:-1] if len(k) >= 5 and k[-1] in "pçtk" else k
+    return "%" + k.replace("%", "").replace("_", "") + "%"
+
+
+def _konu_sql(kaynak: str, kosul: list[str], kelimeler: list[str], ilk: str, adet: int) -> str:
+    """Kelimelerin hepsinin geçtiği kararları, kelimelerin metinde geçme sıklığına göre sıralar."""
+    kokler = [_desen(k).strip("%").replace("'", "") for k in kelimeler]
+    puan = " + ".join(f"(length(lt) - length(replace(lt, '{k}', ''))) / {max(1, len(k))}" for k in kokler)
+    kosul_lt = [c.replace("lower(replace(replace(text, 'İ', 'i'), 'I', 'ı'))", "lt") for c in kosul]
+    return (f"SELECT court, esas_no, karar_no, karar_tarihi, document_id, "
+            f"regexp_extract(lt, '.{{0,140}}{ilk}.{{0,140}}'), {puan} AS puan FROM ("
+            f"SELECT court, esas_no, karar_no, karar_tarihi, document_id, "
+            f"lower(replace(replace(text, 'İ', 'i'), 'I', 'ı')) AS lt FROM {kaynak}) "
+            f"WHERE {' AND '.join(kosul_lt)} ORDER BY puan DESC, karar_tarihi DESC LIMIT {int(adet)}")
+
+
+def k_konu(a) -> int:
+    """Korpusun tam metninde, kararın kendi metnine göre arar. Sonuç künyeleri resmî belge
+    numarasıyla verir; hiçbir künye model tarafından yazılmaz."""
+    if not os.path.exists(DIZIN):
+        raise SystemExit("Dizin yok. Önce: ictihat.py kur")
+    con = dizin()
+    daire = daire_bul(a.daire) if a.daire else None
+    if a.daire and not daire:
+        raise SystemExit(f"Daire okunamadı: {a.daire}")
+    yil = str(a.yildan) if a.yildan else "1900"
+    parcalar = [r[0] for r in con.execute(
+        f"SELECT DISTINCT shard FROM '{DIZIN}' WHERE karar_tarihi >= ? ORDER BY 1", [yil]).fetchall()]
+    if not HTTPFS and not a.yildan:  # eklentisiz yolda tam tarama çok yavaş: son yıllara sınırla
+        parcalar = parcalar[-4:]
+        print("Not: hızlı uzak okuma yok; arama son dört parçayla (yaklaşık son yıllar) sınırlandı.")
+    kosul, par = ["1=1"], []
+    if daire == "İBK":
+        kosul.append("(court ILIKE '%Birleştirme%' OR court ILIKE '%Büyük Genel%')")
+    elif daire:
+        kosul.append("court = ?"); par.append(daire)
+    if a.yildan:
+        kosul.append("karar_tarihi >= ?"); par.append(yil)
+    for k in a.kelime:
+        kosul.append("lower(replace(replace(text, 'İ', 'i'), 'I', 'ı')) LIKE ?"); par.append(_desen(k))
+    ilk = re.escape(_desen(a.kelime[0]).strip("%"))
+    t0 = time.time()
+    print(f"Korpusta aranıyor: {', '.join(a.kelime)}"
+          + (f" · {daire}" if daire else "") + (f" · {a.yildan}+" if a.yildan else "")
+          + f" · {len(parcalar)} parça (bir-iki dakika sürebilir)…", flush=True)
+    sonuc = []
+    if HTTPFS:
+        dosyalar = "[" + ",".join(f"'{KORPUS.format(int(i))}'" for i in parcalar) + "]"
+        sonuc = con.execute(_konu_sql(f"read_parquet({dosyalar})", kosul, a.kelime, ilk, a.en_fazla), par).fetchall()
+    else:
+        import pyarrow as pa  # noqa: F401
+        for i in reversed(parcalar):
+            pf = _uzak_parquet(int(i))
+            for g in range(pf.num_row_groups):
+                t = pf.read_row_group(g, columns=["court", "esas_no", "karar_no", "karar_tarihi",
+                                                    "document_id", "text"])
+                con.register("rg", t)
+                sonuc += con.execute(_konu_sql("rg", kosul, a.kelime, ilk, a.en_fazla), par).fetchall()
+                con.unregister("rg")
+            if len(sonuc) >= a.en_fazla:
+                break
+        sonuc = sorted(sonuc, key=lambda r: (r[6], r[3]), reverse=True)[:a.en_fazla]
+    print(f"{len(sonuc)} karar bulundu ({time.time() - t0:.0f} sn). Künyeler kayıttan; metni okumadan "
+          f"kullanmayın.\n")
+    if not sonuc:
+        print("Bu kelimelerin hepsinin geçtiği karar yok. Daha az ya da farklı kelimeyle deneyin.")
+        return 2
+    print("| Künye | Kararın içinden | Resmî sayfa |\n|---|---|---|")
+    for court, e, k, t, belge, parca, _puan in sonuc:
+        parca = re.sub(r"\s+", " ", parca or "").strip().replace("|", "/")
+        print(f"| Yargıtay {court}, E. {e}, K. {k}, T. {_tarih(t)} | …{parca}… | {SAYFA}/{belge} |")
+    print("\nSıradaki adım: uygun olanı `getir \"<künye>\"` ile kayda alın, `cikar` ile okuyun.")
     return 0
 
 
@@ -922,7 +1084,11 @@ def k_dogrula(a) -> int:
             return f"({atif(d)}; {d['kaynak']})"
         if p not in d["onayli_paragraflar"]:
             sorun.append(f"ONAYSIZ — {m.group(0)} paragrafı onaylanmadı"); return m.group(0)
-        return f"“{paragraflar(_metin(kno))[int(p[1:]) - 1]}” ({atif(d)}; {d['kaynak']})"
+        ps = paragraflar(_metin(kno))
+        i = int(p[1:]) - 1
+        ses = bolumle(ps)[i]
+        not_ = "" if ses == "YARGITAY" else f"; kararda aktarılan {ses.lower()} metni"
+        return f"“{ps[i]}” ({atif(d)}; {d['kaynak']}{not_})"
 
     son = ETIKET.sub(degistir, taslak)
     cikti = a.cikti or re.sub(r"(\.\w+)?$", "_SORUNLU.md" if sorun else "_dogrulanmis.md", a.taslak, count=1)
@@ -983,6 +1149,16 @@ def k_oztest(a) -> int:
         test("metin: korpustan 3. HD 2025/927 tam metni", m and "temyiz sınırı" in m)
     except Exception as e:
         test(f"metin: korpus okunamadı ({e})", False)
+    # konu araması (korpusun tam metni)
+    eski = sys.stdout
+    sys.stdout = io_ = __import__("io").StringIO()
+    try:
+        k_konu(argparse.Namespace(kelime=["denkleştirme", "birleşme"], daire="11. HD", yildan=2025, en_fazla=20))
+    except Exception as e:
+        print(f"HATA {e}")
+    finally:
+        sys.stdout = eski
+    test("konu: korpusta 11. HD 2025 'denkleştirme birleşme' → 2023/6190", "2023/6190" in io_.getvalue())
     # taslak denetimi (çevrimdışı)
     tmp = tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8")
     tmp.write("Nitekim Yargıtay 3. HD, E. 2023/4567 K. 2024/1234 sayılı kararında...")
@@ -994,6 +1170,20 @@ def k_oztest(a) -> int:
     finally:
         sys.stdout.close(); sys.stdout = eski
     test("taslak: uydurma künye yakalanır", kod == 2)
+    eski_bicim = ["Taraflar arasındaki davanın yapılan yargılaması sonunda ... okunup, incelendikten sonra işin "
+                  "gereği görüşülüp, düşünüldü:", "Davacı vekili, birleşmenin geçersiz olduğunu ileri sürmüştür.",
+                  "Mahkemece davanın reddine karar verilmiştir.", "Kararı, davacı vekili temyiz etmiştir.",
+                  "Dosyadaki yazılara göre temyiz itirazları yerinde değildir.",
+                  "SONUÇ: Hükmün ONANMASINA oybirliğiyle karar verildi."]
+    yeni_bicim = ["I. DAVA", "Davacı vekili dava dilekçesinde ...", "IV. İSTİNAF", "Bölge Adliye Mahkemesince ...",
+                  "V. TEMYİZ", "B. Değerlendirme ve Gerekçe", "Somut olayda ... yerinde değildir.",
+                  "VI. SONUÇ: Yukarıda açıklanan nedenlerle kararın ONANMASINA ...", "K A R Ş I O Y", "Çoğunluk ..."]
+    e1, e2 = bolumle(eski_bicim), bolumle(yeni_bicim)
+    test("ses: eski biçimde gerekçe Yargıtay'ın, taraf/alt mahkeme ayrı",
+         e1[4] == "YARGITAY" and e1[1] == "TARAF" and e1[2].startswith("ALT MAHKEME") and e1[5] == "SONUÇ")
+    test("ses: yeni biçimde gerekçe Yargıtay'ın, karşı oy ayrı",
+         e2[6] == "YARGITAY" and e2[1] == "TARAF" and e2[3].startswith("ALT MAHKEME") and e2[7] == "SONUÇ"
+         and e2[9] == "KARŞI OY")
     print("\nSAĞLIK (bilgi içindir, kapı değildir) — teyit katmanları şu an:")
     for ad, f in [("Adalet Bakanlığı servisi", lambda: bakanlik("2025/927", "2025/6060")["durum"]),
                   ("Hukuki Haber", lambda: hukukihaber("1. Ceza Dairesi", "2025/7342", "2026/4000")["durum"])]:
@@ -1022,6 +1212,9 @@ def main(argv=None) -> int:
     s = alt.add_parser("cikar"); s.add_argument("kno"); s.add_argument("--kelime", nargs="+", required=True)
     s.add_argument("--en-fazla", dest="en_fazla", type=int, default=6); s.set_defaults(f=k_cikar)
     s = alt.add_parser("ara"); s.add_argument("ifade"); s.add_argument("--adet", type=int, default=10); s.set_defaults(f=k_ara)
+    s = alt.add_parser("konu"); s.add_argument("kelime", nargs="+"); s.add_argument("--daire")
+    s.add_argument("--yildan", type=int); s.add_argument("--en-fazla", dest="en_fazla", type=int, default=15)
+    s.set_defaults(f=k_konu)
     s = alt.add_parser("onayla"); s.add_argument("kno"); s.add_argument("paragraf", nargs="+"); s.set_defaults(f=k_onayla)
     s = alt.add_parser("reddet"); s.add_argument("kno"); s.set_defaults(f=k_reddet)
     s = alt.add_parser("dogrula"); s.add_argument("taslak"); s.add_argument("--cikti")

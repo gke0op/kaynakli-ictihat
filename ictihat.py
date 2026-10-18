@@ -41,7 +41,7 @@ import urllib.error
 import urllib.request
 import zipfile
 
-SURUM = "2.0"
+SURUM = "2.1"
 UA = f"kaynakli-ictihat/{SURUM}"
 # Kendi aynamız (doluysa önce bu denenir); boşsa dizin asıl korpustan kurulur.
 DIZIN_AYNA = os.environ.get("ICTIHAT_DIZIN_URL", "")
@@ -459,6 +459,12 @@ def kontrol_et(kunye: dict, cevrimici: bool = True) -> dict:
         s["sonuc"] = "OKUNAMADI"
         return s
     tam = [r for r in dizinde_ara(esas, karar) if esas and karar]
+    if not tam and esas and karar and re.fullmatch(r"\d{4}/\d+-\d+", esas):
+        # Genel kurul yazımı: "2024/11-60" (dosyanın geldiği daire + sıra) — kayıtta "2024/60"
+        kisa = f"{esas.split('/')[0]}/{esas.split('-')[-1]}"
+        tam = dizinde_ara(kisa, karar)
+        if tam:
+            s["notlar"].append(f"Esas numarası genel kurul yazımıyla ({esas}) verilmiş; kayıtta {kisa} olarak geçiyor.")
     uyan = [r for r in tam if _daire_uyar(daire, r["daire"])]
     if uyan:
         s["kayit"] = uyan[0]
@@ -962,6 +968,7 @@ def k_oztest(a) -> int:
     # dizin
     for kunye, beklenen, belge in [
         ("21. HD E. 2014/24839 K. 2015/9497", "BULUNDU", "210988800"),
+        ("HGK 2024/11-60 E., 2025/588 K.", "BULUNDU", "1180504600"),
         ("3. HD E. 2025/927 K. 2025/6060", "BULUNDU", "1205482000"),
         ("3. HD E. 2023/4567 K. 2024/1234", "BULUNAMADI", None),
         ("3. HD E. 2025/927 K. 2025/9999", "BULUNAMADI", None),

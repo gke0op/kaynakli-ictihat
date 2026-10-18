@@ -1,0 +1,8 @@
+kunye_index.parquet
+ictihat_kayit.json
+ictihat_raporu.md
+ictihat_metin/
+*_kunye_denetimi.md
+*_SORUNLU.md
+*_dogrulanmis.md
+__pycache__/

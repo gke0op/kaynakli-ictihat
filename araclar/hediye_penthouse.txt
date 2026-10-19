@@ -1,0 +1,61 @@
+You're the designer here. I trust your taste completely. I want a gorgeous, cinematic scrolling showcase of a luxury penthouse, viewed on my phone. Treat it as a finished, production-quality piece, not a demo.
+
+STEP 1 — SHOW ME DIRECTIONS FIRST (don't build yet)
+Search the web for luxury penthouse interiors and show me three pictures that represent three clearly different design directions (for example different moods, materials, or times of day). Under each, write one or two lines on what makes it feel expensive. Then ask me to pick one, or a mix. These are inspiration for mood, not designs to copy.
+
+STEP 2 — AFTER I PICK, BUILD IT
+First, plan silently: palette, materials, time of day, lighting, the sequence of 5–6 rooms, and the camera path. Then build.
+
+The concept:
+- An invented penthouse with a name you make up.
+- Shown as an architectural SECTION CUT: the penthouse sliced open like a beautiful scale model, seen side-on, with the city outside the glass.
+- The camera travels SIDEWAYS through the rooms. My normal vertical swipe or scroll drives that sideways movement, smoothly damped so it feels like a camera dolly on rails. Don't use native horizontal scrolling.
+- At each room, a slow, subtle push-in, plus the room name and one elegant line of caption. Use refined typography.
+- Add a minimal progress indicator I can tap to jump between rooms, and a graceful loading state.
+
+The frame:
+- In landscape: a full-screen 16:9-feeling cinematic frame.
+- On a portrait phone: the scene should fill most of the screen. Use a frame up to 4:5 tall and widen the camera's field of view to suit, with captions beneath. Never leave large empty bands.
+- Captions must stay legible over the brightest room in both orientations. Give them a guaranteed-contrast backing (scrim or panel), not just text laid over the scene.
+
+Taste rails (everything else is yours):
+- Restraint reads as expensive.
+- No gold-everything, no chrome bling, no neon.
+- Real proportions: generous ceiling heights, believable furniture scale.
+- Furniture as simple, elegant forms.
+- Light should do the heavy lifting: warm pools of light, soft falloff, and a sky or city that sets the mood. The time of day must be unmistakable at a glance.
+- Nothing may read as low-poly or video-game: not the furniture, not the plants, not the city.
+- The city is a soft, hazy backdrop of silhouettes and scattered lights, never a visible repeating window grid.
+
+Hard technical constraints:
+- One self-contained HTML file.
+- Use three.js version 0.186.1, loaded as an ES module through an import map from https://cdn.jsdelivr.net/npm/three@0.186.1/ . Do not use cdnjs: its three.js is years out of date.
+- Any custom shader that draws to the screen must include three.js's tone-mapping and colour-space chunks, so it matches the rest of the scene.
+- Everything procedural: no external images, textures, or 3D models. Generate materials and textures in code (for example canvas-generated textures). Web fonts are fine.
+- Mobile performance first:
+  - Cap the device pixel ratio at about 2, and lower the resolution automatically if frames run slow.
+  - No shadows, or a single small shadow map.
+  - Bloom or post-processing only if it stays smooth on a recent phone.
+  - Target 60fps. Stop rendering when nothing is moving or the tab is hidden.
+  - No new objects allocated inside the render loop.
+- Touch-first: no hover-dependent interactions.
+- Use a fixed canvas, a scroll spacer, and requestAnimationFrame easing toward the scroll target.
+
+Production details:
+- If WebGL or the 3D library fails to load, show a calm, on-brand message instead of a blank screen.
+- Respect reduced-motion settings: no film-grain animation, faster and calmer camera moves.
+- Room names and captions are real text, not drawn into the canvas. Progress buttons are focusable and labelled.
+- Handle rotation and resizing live, without a reload.
+- No console errors.
+
+Self-review before delivering:
+You can't see your render, so review your own code against your plan:
+- Camera framing at every room stop, in both orientations.
+- No clipping through walls.
+- Every room clearly lit. No technique should be able to black out the whole scene if it misbehaves.
+- Caption contrast over the brightest room.
+- Colors not muddy in the darks.
+Fix anything off, then deliver it as an artifact I can open on my phone.
+
+AFTER DELIVERY
+Tell me in a few lines what each room should look like on my phone, and ask me to send screenshots, portrait and landscape, of anything that looks dark, empty, blurry or off. Then fix exactly what I report.

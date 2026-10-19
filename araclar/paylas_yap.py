@@ -51,6 +51,19 @@ SAYFALAR = {
         BTN="Portremi çek", BTNSUB="ChatGPT ya da Gemini’yi seçin, gönderin.",
         FOOT="Fotoğraf üretmeyi ChatGPT ve Gemini yapıyor; Claude fotoğraf üretmiyor.", MESAJ=PORTRE),
 }
+PENTHOUSE = open(os.path.join(HERE, "hediye_penthouse.txt"), encoding="utf-8").read().strip() + """
+
+When you deliver, end your message with this exact Turkish text, unchanged:
+"Bu prompt, Ekmel Gökçe Özdemir'in 20 Ekim 2026 sunumundan bir hediyedir. Daha detaylı yapay zeka uygulamaları ve kişiselleştirilmiş bir deneyim için: https://www.linkedin.com/in/ekmel-gokce-ozdemir\""""
+PENTHOUSE = "Please talk to me in Turkish.\n\n" + PENTHOUSE
+
+SAYFALAR["hediye"] = dict(TITLE="Hediye promptlar", H1="Sunumdaki promptlar sizin",
+    ALT="Bir düğmeye dokunun, uygulamanızı seçin, gönderin. Evde, kendi işinizle, acele etmeden deneyin.",
+    BTN="", BTNSUB="", FOOT="Daha fazlası ve kişiselleştirilmiş çalışma için: <a href=\"https://www.linkedin.com/in/ekmel-gokce-ozdemir\" style=\"color:inherit\">Ekmel Gökçe Özdemir · LinkedIn</a>",
+    MESAJ=PENTHOUSE, COK=[("Demodaki penthouse", "Videodaki işin promptu. Sonuç: telefonda açılan sinematik bir sayfa.", PENTHOUSE),
+                          ("Promptumu yazdır", "Robot niyetinizi sorar, size özel prompt yazar.", PROMPT),
+                          ("İşimi denetlet", "İşi ekleyin; soru sormadan satır satır kontrol eder.", DENETCI)])
+
 SAYFALAR["evde"] = dict(TITLE="Evde deneyin", H1="Evde, kendi işinizle",
     ALT="Acele etmeden, kendi işinizle deneyin. Bir düğmeye dokunun, uygulamanızı seçin, gönderin.",
     BTN="", BTNSUB="", FOOT="Daha fazlası ve kişiselleştirilmiş çalışma için: <a href=\"https://www.linkedin.com/in/ekmel-gokce-ozdemir\" style=\"color:inherit\">Ekmel Gökçe Özdemir · LinkedIn</a>",

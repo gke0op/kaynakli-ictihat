@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hediye promptlar</title>
+<meta name="theme-color" content="#F4F5F2">
+<style>
+:root{--bg:#F4F5F2;--fg:#16181D;--soluk:#4A505A;--mavi:#1F4FBF;--turuncu:#C2410C;--kart:#FFFFFF;--cizgi:#D5D8D2}
+@media (prefers-color-scheme: dark){:root{--bg:#16181D;--fg:#EDEEEA;--soluk:#B9BDC6;--mavi:#6E93F0;--turuncu:#F08A4B;--kart:#22252C;--cizgi:#343843}}
+*{box-sizing:border-box;margin:0}
+html,body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:520px;margin:0 auto;padding:28px 16px 40px;display:flex;flex-direction:column;gap:18px;min-height:100svh}
+h1{font-size:30px;line-height:1.15;font-weight:700}
+p.alt{font-size:18px;line-height:1.45;color:var(--soluk)}
+button.tur{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;width:100%;padding:22px 20px;border-radius:18px;background:var(--kart);border:2px solid var(--cizgi);cursor:pointer;-webkit-tap-highlight-color:transparent}
+button.tur:active{transform:scale(.985)}
+button.tur .ad{font-size:26px;font-weight:700}
+button.tur .ne{font-size:17px;line-height:1.4;color:var(--soluk)}
+#t1{border-color:var(--mavi);background:var(--mavi)} #t1 .ad{color:#fff} #t1 .ne{color:#E2E9FA}
+.durum{min-height:24px;font-size:17px;font-weight:600;color:var(--mavi);text-align:center}
+.yedek{display:none;flex-direction:column;gap:10px;padding:16px;border-radius:14px;background:var(--kart);border:1px solid var(--cizgi)}
+.yedek.acik{display:flex}
+.yedek b{font-size:17px}
+.yedek .sira{display:flex;gap:10px;flex-wrap:wrap}
+.yedek a,.yedek button{all:unset;box-sizing:border-box;flex:1;min-width:130px;text-align:center;padding:14px 10px;border-radius:12px;border:1px solid var(--cizgi);font-size:17px;font-weight:600;cursor:pointer}
+footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
+</style>
+</head>
+<body>
+<main>
+<h1>Sunumdaki promptlar sizin</h1>
+<p class="alt">Bir düğmeye dokunun, uygulamanızı seçin, gönderin. Evde, kendi işinizle, acele etmeden deneyin.</p>
+
+<button class="tur" id="t1" data-tur="1"><span class="ad">Demodaki penthouse</span><span class="ne">Videodaki işin promptu. Sonuç: telefonda açılan sinematik bir sayfa.</span></button>
+<button class="tur" id="t2" data-tur="2"><span class="ad">Promptumu yazdır</span><span class="ne">Robot niyetinizi sorar, size özel prompt yazar.</span></button>
+<button class="tur" id="t3" data-tur="3"><span class="ad">İşimi denetlet</span><span class="ne">İşi ekleyin; soru sormadan satır satır kontrol eder.</span></button>
+
+<div class="durum" id="durum" role="status" aria-live="polite"></div>
+
+<div class="yedek" id="yedek">
+<b id="yedekbaslik">Liste açılmadıysa:</b>
+<div class="sira">
+<a id="gpt" href="#" rel="noopener">ChatGPT'de aç</a>
+<a id="claude" href="#" rel="noopener">Claude'da aç</a>
+</div>
+<div class="sira">
+<button id="kopya" type="button">Kopyala (Gemini ve diğerleri için)</button>
+</div>
+</div>
+
+<footer>Daha fazlası ve kişiselleştirilmiş çalışma için: <a href="https://www.linkedin.com/in/ekmel-gokce-ozdemir" style="color:inherit">Ekmel Gökçe Özdemir · LinkedIn</a></footer>
+</main>
+<script>
+const TUR = {1: "Please talk to me in Turkish.\n\nYou're the designer here. I trust your taste completely. I want a gorgeous, cinematic scrolling showcase of a luxury penthouse, viewed on my phone. Treat it as a finished, production-quality piece, not a demo.\n\nSTEP 1 — SHOW ME DIRECTIONS FIRST (don't build yet)\nSearch the web for luxury penthouse interiors and show me three pictures that represent three clearly different design directions (for example different moods, materials, or times of day). Under each, write one or two lines on what makes it feel expensive. Then ask me to pick one, or a mix. These are inspiration for mood, not designs to copy.\n\nSTEP 2 — AFTER I PICK, BUILD IT\nFirst, plan silently: palette, materials, time of day, lighting, the sequence of 5–6 rooms, and the camera path. Then build.\n\nThe concept:\n- An invented penthouse with a name you make up.\n- Shown as an architectural SECTION CUT: the penthouse sliced open like a beautiful scale model, seen side-on, with the city outside the glass.\n- The camera travels SIDEWAYS through the rooms. My normal vertical swipe or scroll drives that sideways movement, smoothly damped so it feels like a camera dolly on rails. Don't use native horizontal scrolling.\n- At each room, a slow, subtle push-in, plus the room name and one elegant line of caption. Use refined typography.\n- Add a minimal progress indicator I can tap to jump between rooms, and a graceful loading state.\n\nThe frame:\n- In landscape: a full-screen 16:9-feeling cinematic frame.\n- On a portrait phone: the scene should fill most of the screen. Use a frame up to 4:5 tall and widen the camera's field of view to suit, with captions beneath. Never leave large empty bands.\n- Captions must stay legible over the brightest room in both orientations. Give them a guaranteed-contrast backing (scrim or panel), not just text laid over the scene.\n\nTaste rails (everything else is yours):\n- Restraint reads as expensive.\n- No gold-everything, no chrome bling, no neon.\n- Real proportions: generous ceiling heights, believable furniture scale.\n- Furniture as simple, elegant forms.\n- Light should do the heavy lifting: warm pools of light, soft falloff, and a sky or city that sets the mood. The time of day must be unmistakable at a glance.\n- Nothing may read as low-poly or video-game: not the furniture, not the plants, not the city.\n- The city is a soft, hazy backdrop of silhouettes and scattered lights, never a visible repeating window grid.\n\nHard technical constraints:\n- One self-contained HTML file.\n- Use three.js version 0.186.1, loaded as an ES module through an import map from https://cdn.jsdelivr.net/npm/three@0.186.1/ . Do not use cdnjs: its three.js is years out of date.\n- Any custom shader that draws to the screen must include three.js's tone-mapping and colour-space chunks, so it matches the rest of the scene.\n- Everything procedural: no external images, textures, or 3D models. Generate materials and textures in code (for example canvas-generated textures). Web fonts are fine.\n- Mobile performance first:\n  - Cap the device pixel ratio at about 2, and lower the resolution automatically if frames run slow.\n  - No shadows, or a single small shadow map.\n  - Bloom or post-processing only if it stays smooth on a recent phone.\n  - Target 60fps. Stop rendering when nothing is moving or the tab is hidden.\n  - No new objects allocated inside the render loop.\n- Touch-first: no hover-dependent interactions.\n- Use a fixed canvas, a scroll spacer, and requestAnimationFrame easing toward the scroll target.\n\nProduction details:\n- If WebGL or the 3D library fails to load, show a calm, on-brand message instead of a blank screen.\n- Respect reduced-motion settings: no film-grain animation, faster and calmer camera moves.\n- Room names and captions are real text, not drawn into the canvas. Progress buttons are focusable and labelled.\n- Handle rotation and resizing live, without a reload.\n- No console errors.\n\nSelf-review before delivering:\nYou can't see your render, so review your own code against your plan:\n- Camera framing at every room stop, in both orientations.\n- No clipping through walls.\n- Every room clearly lit. No technique should be able to black out the whole scene if it misbehaves.\n- Caption contrast over the brightest room.\n- Colors not muddy in the darks.\nFix anything off, then deliver it as an artifact I can open on my phone.\n\nAFTER DELIVERY\nTell me in a few lines what each room should look like on my phone, and ask me to send screenshots, portrait and landscape, of anything that looks dark, empty, blurry or off. Then fix exactly what I report.\n\nWhen you deliver, end your message with this exact Turkish text, unchanged:\n\"Bu prompt, Ekmel Gökçe Özdemir'in 20 Ekim 2026 sunumundan bir hediyedir. Daha detaylı yapay zeka uygulamaları ve kişiselleştirilmiş bir deneyim için: https://www.linkedin.com/in/ekmel-gokce-ozdemir\"", 2: "Bana iyi bir prompt yazmamda yardım et. İnşaat sektöründe çalışıyorum.\n\nÖnce niyetimi anla. Bana şu soruları TEK TEK sor, her seferinde cevabımı bekle:\n1) Ne yapmak istiyorum ve neden? (örnek: hakediş kontrolü, teklif karşılaştırma, şantiye raporu, resmî yazı)\n2) Sonuç neye benzemeli, kim kullanacak? (tablo, kısa mesaj, rapor, liste)\n3) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, üslup)\n\nBu, bir etkinlikte telefondan yapılan kısa bir deneme. İşi küçük tut: yazacağın prompt, tek bir sohbette birkaç dakikada biten ve metin ya da tablo olarak verilebilen bir iş istesin. İsteğim bundan büyükse (örneğin AutoCAD çizimi, pafta, büyük dosya ya da saatler sürecek bir iş) bunu bana açıkça söyle, bugün yapılabilecek en küçük ve en faydalı parçayı öner (örneğin bir kontrol listesi, tek kat için bir tablo, çizimciye verilecek yazılı tarif) ve promptu o parça için yaz.\n\nNiyetimi anladıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, amacı, işi adım adım, gereken bilgiyi önce kendisinin araması ve bulamazsa bana sorması, çıktının biçimi, kapsam sınırı (tek seferde, bu sohbette bitecek kadar; üretemediği bir dosya türü istenirse bunu söyleyip metin ya da tablo vermesi) ve şu kural: \"Bilmediğin bir şeyi uydurma; her sayının nereden geldiğini yaz.\"\nPromptu kolayca kopyalayabileceğim tek bir blok içinde ver.\n\nİlk soruyla başla.", 3: "Sen bağımsız bir denetçisin. Bu mesajla birlikte denetlenecek bir iş gönderiyorum (yapıştırdığım metin, ekran görüntüsü ya da dosya). İşi yapan sen değilsin ve işe güvenmiyorsun.\n\nBana hiç soru sorma. Asıl talebi işin kendisinden çıkar. Mesajda denetlenecek bir iş yoksa yalnızca şunu yaz: \"Denetleyeceğim işi yapıştırın ya da ekran görüntüsünü atın.\" ve bekle; başka bir şey sorma.\n\nDenetimi şöyle yap:\n- Alt ajan (sub-agent) çalıştırabiliyorsan denetimi ona ver: işi yapmamış bir ajan. Çalıştıramıyorsan kendin yap, işi ilk kez görüyormuş gibi.\n- İşteki her sayıyı, ölçüyü, tarihi, madde numarasını ve iddiayı ayrı bir satır olarak ele al. En kritik en fazla 10 satırı seç.\n- Her satırı bağımsız kontrol et: resmî kaynağı internette kendin bul, işin içindeki hesapları kendin yeniden yap. İşin gösterdiği kaynağa körü körüne güvenme.\n- Tablo: No | İddia | Nasıl kontrol edildi | DOĞRU / YANLIŞ / DOĞRULANAMADI | Doğrusu ne olmalı.\n- Emin olmadığın satıra DOĞRU deme; DOĞRULANAMADI de. Yeni içerik ekleme, sadece denetle.\n\nSonunda iki cümlelik hüküm: kaç doğru, kaç yanlış, kaç doğrulanamadı; bu iş olduğu gibi kullanılabilir mi?\nKısa tut; telefonda okunacak."};
+let secili = 1;
+const durum = document.getElementById("durum"), yedek = document.getElementById("yedek");
+function yedekGoster(n, baslik){
+  secili = n;
+  const q = encodeURIComponent(TUR[n]);
+  document.getElementById("gpt").href = "https://chatgpt.com/?q=" + q;
+  document.getElementById("claude").href = "https://claude.ai/new?q=" + q;
+  document.getElementById("yedekbaslik").textContent = baslik || "Liste açılmadıysa:";
+  yedek.classList.add("acik");
+}
+async function kopyala(n){
+  try { await navigator.clipboard.writeText(TUR[n]); durum.textContent = "Kopyalandı. Uygulamayı açıp yapıştırın."; return true; }
+  catch(e){ durum.textContent = "Kopyalanamadı; uzun basıp seçin."; return false; }
+}
+document.querySelectorAll("button.tur").forEach(b => b.addEventListener("click", async () => {
+  const n = Number(b.dataset.tur);
+  if (navigator.share) {
+    try {
+      await navigator.share({ text: TUR[n] });
+      durum.textContent = "Uygulamada Gönder'e basın.";
+      return;
+    } catch (e) {
+      if (e && e.name === "AbortError") { durum.textContent = ""; yedekGoster(n); return; }
+    }
+  }
+  yedekGoster(n, "Paylaşım listesi yok. Buradan açın:");
+}));
+document.getElementById("kopya").addEventListener("click", () => kopyala(secili));
+</script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Kaynağını sor</title>
+<title>Promptunu yazdır</title>
 <meta name="theme-color" content="#F4F5F2">
 <style>
 :root{--bg:#F4F5F2;--fg:#16181D;--soluk:#4A505A;--mavi:#1F4FBF;--turuncu:#C2410C;--kart:#FFFFFF;--cizgi:#D5D8D2}
@@ -17,8 +17,7 @@ button.tur{all:unset;box-sizing:border-box;display:flex;flex-direction:column;ga
 button.tur:active{transform:scale(.985)}
 button.tur .ad{font-size:26px;font-weight:700}
 button.tur .ne{font-size:17px;line-height:1.4;color:var(--soluk)}
-#t1{border-color:var(--turuncu)} #t1 .ad{color:var(--turuncu)}
-#t2{border-color:var(--mavi)} #t2 .ad{color:var(--mavi)}
+#t1{border-color:var(--mavi);background:var(--mavi)} #t1 .ad{color:#fff} #t1 .ne{color:#E2E9FA}
 .durum{min-height:24px;font-size:17px;font-weight:600;color:var(--mavi);text-align:center}
 .yedek{display:none;flex-direction:column;gap:10px;padding:16px;border-radius:14px;background:var(--kart);border:1px solid var(--cizgi)}
 .yedek.acik{display:flex}
@@ -30,11 +29,10 @@ footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
 </head>
 <body>
 <main>
-<h1>Yapay zekâya kaynağını sorun</h1>
-<p class="alt">Bir tura dokunun. Açılan listeden kullandığınız uygulamayı seçin: ChatGPT, Gemini, Claude… Mesaj sohbete hazır gelir.</p>
+<h1>Robota kendi promptunuzu yazdırın</h1>
+<p class="alt">Düğmeye dokunun, açılan listeden uygulamanızı seçin: ChatGPT, Gemini, Claude… Mesaj sohbete hazır gelir; gönderin. Robot size işinizi soracak, sonunda size özel bir prompt yazacak.</p>
 
-<button class="tur" id="t1" data-tur="1"><span class="ad">1. Tur · Hafızadan</span><span class="ne">Model aramadan, hafızasından cevap verir. Sayıyı yanınızdakiyle karşılaştırın.</span></button>
-<button class="tur" id="t2" data-tur="2"><span class="ad">2. Tur · Resmî metinle</span><span class="ne">Aynı soru, yönetmeliğin resmî metni mesajın içinde. <b>[BELGE]</b> etiketine bakın.</span></button>
+<button class="tur" id="t1" data-tur="1"><span class="ad">Promptumu yazdır</span><span class="ne">Dokunun, uygulamanızı seçin, gönderin.</span></button>
 
 <div class="durum" id="durum" role="status" aria-live="polite"></div>
 
@@ -49,10 +47,10 @@ footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
 </div>
 </div>
 
-<footer>Kurulum yok, hesap bilgisi istenmez. Mesaj modele her bilgiyi BELGE, KAYNAK ya da HAFIZA diye etiketlemesini söyler.</footer>
+<footer>Çıkan promptu yeni bir sohbete yapıştırın, belgenizi ekleyin. İşe yaradıysa robota “bunu kaydet” deyin.</footer>
 </main>
 <script>
-const TUR = {1: "Bu sohbet boyunca benimle şu kurallarla çalış:\n\n1) Verdiğin her somut bilgiyi (sayı, ölçü, madde no, standart no, tarih, fiyat, isim) etiketle:\n[BELGE] benim verdiğim belgeden; birebir alıntı ve sayfa/madde ile\n[KAYNAK] şimdi açtığın resmî bir sayfadan; bağlantısıyla\n[HAFIZA] doğrulamadığın bilgi; kullanmadan önce kontrol edilmeli\n2) Bilmiyorsan ya da bulamıyorsan uydurma, \"bilmiyorum\" de.\n3) Hesap yaparsan her adımı birimiyle göster.\n4) Belge verirsem yalnız ona dayan; belgede olmayanı varmış gibi yazma.\n5) Her cevabın sonuna \"Kontrol etmem gerekenler\" listesi koy.\n\nBu turda internette arama yapma; yalnız hafızandan cevap ver ve her bilgiyi [HAFIZA] diye etiketle.\n\nİlk soru: Planlı Alanlar İmar Yönetmeliği'ne göre konutta ortak merdivenin rıht yüksekliği en fazla, basamak genişliği en az kaç cm? Hangi madde?", 2: "Bu sohbet boyunca benimle şu kurallarla çalış:\n\n1) Verdiğin her somut bilgiyi (sayı, ölçü, madde no, standart no, tarih, fiyat, isim) etiketle:\n[BELGE] benim verdiğim belgeden; birebir alıntı ve sayfa/madde ile\n[KAYNAK] şimdi açtığın resmî bir sayfadan; bağlantısıyla\n[HAFIZA] doğrulamadığın bilgi; kullanmadan önce kontrol edilmeli\n2) Bilmiyorsan ya da bulamıyorsan uydurma, \"bilmiyorum\" de.\n3) Hesap yaparsan her adımı birimiyle göster.\n4) Belge verirsem yalnız ona dayan; belgede olmayanı varmış gibi yazma.\n5) Her cevabın sonuna \"Kontrol etmem gerekenler\" listesi koy.\n\nAşağıda Planlı Alanlar İmar Yönetmeliği Madde 31'in resmî metninden bir bölüm var (mevzuat.gov.tr, 1 Temmuz 2026 değişikliği dahil güncel metin). Soruyu YALNIZ bu metne dayanarak cevapla; birebir alıntı yap, fıkra ve bendi yaz.\n\n--- RESMÎ METİN: MADDE 31 ---\n(2) Merdiven basamaklarının ölçüleri ve özellikleri:\na) Asansörü olmayan binalarda basamak yüksekliği 0.16 metreden, asansörlü binalarda 0.18 metreden fazla olamaz.\nb) Basamak genişliği 2a+b= 60 ila 64 formülüne göre hesaplanır. Formüldeki a: yükseklik, b: genişliktir. Ancak bu genişlik 0.27 metreden az olamaz.\n--- METİN SONU ---\n\nSoru: Planlı Alanlar İmar Yönetmeliği'ne göre konutta ortak merdivenin rıht yüksekliği en fazla, basamak genişliği en az kaç cm? Hangi madde?"};
+const TUR = {1: "Bana iyi bir prompt yazmamda yardım et. İnşaat sektöründe çalışıyorum.\n\nÖnce bana şu soruları TEK TEK sor, her seferinde cevabımı bekle:\n1) Yapay zekâya hangi işi yaptırmak istiyorum? (örnek: hakediş kontrolü, şartname özeti, teklif karşılaştırma, şantiye raporu, resmî yazı)\n2) Sonuç neye benzemeli? (tablo, kısa mesaj, rapor, madde madde liste)\n3) Elimde hangi belgeler var? (PDF, fotoğraf, Excel)\n4) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, kim okuyacak)\n\nCevaplarımı aldıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, işi adım adım, belgeleri nasıl kullanacağını, çıktının biçimini ve şu kuralı: \"Bilmediğin ya da belgede olmayan bir şeyi uydurma; her sayının nereden geldiğini yaz.\"\nPromptu kolayca kopyalayabileceğim tek bir blok içinde ver.\n\nİlk soruyla başla."};
 let secili = 1;
 const durum = document.getElementById("durum"), yedek = document.getElementById("yedek");
 function yedekGoster(n, baslik){

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Kaynağını sor</title>
+<title>Promptunu yazdır</title>
 <meta name="theme-color" content="#F4F5F2">
 <style>
 :root{--bg:#F4F5F2;--fg:#16181D;--soluk:#4A505A;--mavi:#1F4FBF;--turuncu:#C2410C;--kart:#FFFFFF;--cizgi:#D5D8D2}
@@ -17,8 +17,7 @@ button.tur{all:unset;box-sizing:border-box;display:flex;flex-direction:column;ga
 button.tur:active{transform:scale(.985)}
 button.tur .ad{font-size:26px;font-weight:700}
 button.tur .ne{font-size:17px;line-height:1.4;color:var(--soluk)}
-#t1{border-color:var(--turuncu)} #t1 .ad{color:var(--turuncu)}
-#t2{border-color:var(--mavi)} #t2 .ad{color:var(--mavi)}
+#t1{border-color:var(--mavi);background:var(--mavi)} #t1 .ad{color:#fff} #t1 .ne{color:#E2E9FA}
 .durum{min-height:24px;font-size:17px;font-weight:600;color:var(--mavi);text-align:center}
 .yedek{display:none;flex-direction:column;gap:10px;padding:16px;border-radius:14px;background:var(--kart);border:1px solid var(--cizgi)}
 .yedek.acik{display:flex}
@@ -30,11 +29,10 @@ footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
 </head>
 <body>
 <main>
-<h1>Yapay zekâya kaynağını sorun</h1>
-<p class="alt">Bir tura dokunun. Açılan listeden kullandığınız uygulamayı seçin: ChatGPT, Gemini, Claude… Mesaj sohbete hazır gelir.</p>
+<h1>Robota kendi promptunuzu yazdırın</h1>
+<p class="alt">Düğmeye dokunun, açılan listeden uygulamanızı seçin: ChatGPT, Gemini, Claude… Mesaj sohbete hazır gelir; gönderin. Robot size işinizi soracak, sonunda size özel bir prompt yazacak.</p>
 
-<button class="tur" id="t1" data-tur="1"><span class="ad">1. Tur · Hafızadan</span><span class="ne">Model aramadan, hafızasından cevap verir. Sayıyı yanınızdakiyle karşılaştırın.</span></button>
-<button class="tur" id="t2" data-tur="2"><span class="ad">2. Tur · Resmî metinle</span><span class="ne">Aynı soru, yönetmeliğin resmî metni mesajın içinde. <b>[BELGE]</b> etiketine bakın.</span></button>
+<button class="tur" id="t1" data-tur="1"><span class="ad">Promptumu yazdır</span><span class="ne">Dokunun, uygulamanızı seçin, gönderin.</span></button>
 
 <div class="durum" id="durum" role="status" aria-live="polite"></div>
 
@@ -49,10 +47,10 @@ footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
 </div>
 </div>
 
-<footer>Kurulum yok, hesap bilgisi istenmez. Mesaj modele her bilgiyi BELGE, KAYNAK ya da HAFIZA diye etiketlemesini söyler.</footer>
+<footer>Çıkan promptu yeni bir sohbete yapıştırın, belgenizi ekleyin. İşe yaradıysa robota “bunu kaydet” deyin.</footer>
 </main>
 <script>
-const TUR = {1: __TUR1__, 2: __TUR2__};
+const TUR = {1: __MESAJ__};
 let secili = 1;
 const durum = document.getElementById("durum"), yedek = document.getElementById("yedek");
 function yedekGoster(n, baslik){

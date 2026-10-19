@@ -1,25 +1,21 @@
-"""Tek ekranlık paylaşım sayfası: dokun → telefonun paylaşım listesi → uygulama seç → mesaj sohbette hazır."""
-import json, os, re
+"""Tek ekranlık paylaşım sayfası: dokun → telefonun paylaşım listesi → uygulama seç → mesaj sohbette hazır.
+Mesaj, robotun kullanıcıyı sorgulayıp onun işi için bir prompt yazmasını ister."""
+import json, os
 HERE = os.path.dirname(os.path.abspath(__file__))
-md = open(os.path.join(HERE, "..", "kutuphane", "planli-alanlar-imar-yonetmeligi", "madde-031.md"), encoding="utf-8").read()
-fikra2 = re.search(r"^\(2\) .*?(?=^\(3\) )", md, re.S | re.M).group(0).strip()
-bentler = "\n".join(p for p in fikra2.split("\n\n") if p.startswith(("(2)", "a)", "b)")))
-KURAL = """Bu sohbet boyunca benimle şu kurallarla çalış:
+MESAJ = """Bana iyi bir prompt yazmamda yardım et. İnşaat sektöründe çalışıyorum.
 
-1) Verdiğin her somut bilgiyi (sayı, ölçü, madde no, standart no, tarih, fiyat, isim) etiketle:
-[BELGE] benim verdiğim belgeden; birebir alıntı ve sayfa/madde ile
-[KAYNAK] şimdi açtığın resmî bir sayfadan; bağlantısıyla
-[HAFIZA] doğrulamadığın bilgi; kullanmadan önce kontrol edilmeli
-2) Bilmiyorsan ya da bulamıyorsan uydurma, "bilmiyorum" de.
-3) Hesap yaparsan her adımı birimiyle göster.
-4) Belge verirsem yalnız ona dayan; belgede olmayanı varmış gibi yazma.
-5) Her cevabın sonuna "Kontrol etmem gerekenler" listesi koy."""
-SORU = "Planlı Alanlar İmar Yönetmeliği'ne göre konutta ortak merdivenin rıht yüksekliği en fazla, basamak genişliği en az kaç cm? Hangi madde?"
-tur1 = f"{KURAL}\n\nBu turda internette arama yapma; yalnız hafızandan cevap ver ve her bilgiyi [HAFIZA] diye etiketle.\n\nİlk soru: {SORU}"
-tur2 = (f"{KURAL}\n\nAşağıda Planlı Alanlar İmar Yönetmeliği Madde 31'in resmî metninden bir bölüm var (mevzuat.gov.tr, 1 Temmuz 2026 değişikliği dahil güncel metin). "
-        f"Soruyu YALNIZ bu metne dayanarak cevapla; birebir alıntı yap, fıkra ve bendi yaz.\n\n--- RESMÎ METİN: MADDE 31 ---\n{bentler}\n--- METİN SONU ---\n\nSoru: {SORU}")
+Önce bana şu soruları TEK TEK sor, her seferinde cevabımı bekle:
+1) Yapay zekâya hangi işi yaptırmak istiyorum? (örnek: hakediş kontrolü, şartname özeti, teklif karşılaştırma, şantiye raporu, resmî yazı)
+2) Sonuç neye benzemeli? (tablo, kısa mesaj, rapor, madde madde liste)
+3) Elimde hangi belgeler var? (PDF, fotoğraf, Excel)
+4) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, kim okuyacak)
+
+Cevaplarımı aldıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, işi adım adım, belgeleri nasıl kullanacağını, çıktının biçimini ve şu kuralı: "Bilmediğin ya da belgede olmayan bir şeyi uydurma; her sayının nereden geldiğini yaz."
+Promptu kolayca kopyalayabileceğim tek bir blok içinde ver.
+
+İlk soruyla başla."""
 html = open(os.path.join(HERE, "paylas_sablon.html"), encoding="utf-8").read()
-html = html.replace("__TUR1__", json.dumps(tur1, ensure_ascii=False)).replace("__TUR2__", json.dumps(tur2, ensure_ascii=False))
-assert "__TUR" not in html
+html = html.replace("__MESAJ__", json.dumps(MESAJ, ensure_ascii=False))
+assert "__MESAJ__" not in html
 open(os.path.join(HERE, "..", "paylas", "index.html"), "w", encoding="utf-8").write(html)
-print("index.html", len(html), "bayt")
+print("index.html", len(html), "bayt; mesaj", len(MESAJ), "karakter")

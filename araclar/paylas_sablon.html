@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kaynağını sor</title>
+<meta name="theme-color" content="#F4F5F2">
+<style>
+:root{--bg:#F4F5F2;--fg:#16181D;--soluk:#4A505A;--mavi:#1F4FBF;--turuncu:#C2410C;--kart:#FFFFFF;--cizgi:#D5D8D2}
+@media (prefers-color-scheme: dark){:root{--bg:#16181D;--fg:#EDEEEA;--soluk:#B9BDC6;--mavi:#6E93F0;--turuncu:#F08A4B;--kart:#22252C;--cizgi:#343843}}
+*{box-sizing:border-box;margin:0}
+html,body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:520px;margin:0 auto;padding:28px 16px 40px;display:flex;flex-direction:column;gap:18px;min-height:100svh}
+h1{font-size:30px;line-height:1.15;font-weight:700}
+p.alt{font-size:18px;line-height:1.45;color:var(--soluk)}
+button.tur{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;width:100%;padding:22px 20px;border-radius:18px;background:var(--kart);border:2px solid var(--cizgi);cursor:pointer;-webkit-tap-highlight-color:transparent}
+button.tur:active{transform:scale(.985)}
+button.tur .ad{font-size:26px;font-weight:700}
+button.tur .ne{font-size:17px;line-height:1.4;color:var(--soluk)}
+#t1{border-color:var(--turuncu)} #t1 .ad{color:var(--turuncu)}
+#t2{border-color:var(--mavi)} #t2 .ad{color:var(--mavi)}
+.durum{min-height:24px;font-size:17px;font-weight:600;color:var(--mavi);text-align:center}
+.yedek{display:none;flex-direction:column;gap:10px;padding:16px;border-radius:14px;background:var(--kart);border:1px solid var(--cizgi)}
+.yedek.acik{display:flex}
+.yedek b{font-size:17px}
+.yedek .sira{display:flex;gap:10px;flex-wrap:wrap}
+.yedek a,.yedek button{all:unset;box-sizing:border-box;flex:1;min-width:130px;text-align:center;padding:14px 10px;border-radius:12px;border:1px solid var(--cizgi);font-size:17px;font-weight:600;cursor:pointer}
+footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
+</style>
+</head>
+<body>
+<main>
+<h1>Yapay zekâya kaynağını sorun</h1>
+<p class="alt">Bir tura dokunun. Açılan listeden kullandığınız uygulamayı seçin: ChatGPT, Gemini, Claude… Mesaj sohbete hazır gelir.</p>
+
+<button class="tur" id="t1" data-tur="1"><span class="ad">1. Tur · Kaynaksız</span><span class="ne">Model hafızasından cevap verir. Yanındaki <b>[HAFIZA]</b> etiketine bakın.</span></button>
+<button class="tur" id="t2" data-tur="2"><span class="ad">2. Tur · Resmî metinle</span><span class="ne">Aynı soru, yönetmeliğin resmî metni mesajın içinde. <b>[BELGE]</b> etiketine bakın.</span></button>
+
+<div class="durum" id="durum" role="status" aria-live="polite"></div>
+
+<div class="yedek" id="yedek">
+<b id="yedekbaslik">Liste açılmadıysa:</b>
+<div class="sira">
+<a id="gpt" href="#" rel="noopener">ChatGPT'de aç</a>
+<a id="claude" href="#" rel="noopener">Claude'da aç</a>
+</div>
+<div class="sira">
+<button id="kopya" type="button">Kopyala (Gemini ve diğerleri için)</button>
+</div>
+</div>
+
+<footer>Kurulum yok, hesap bilgisi istenmez. Mesaj modele her bilgiyi BELGE, KAYNAK ya da HAFIZA diye etiketlemesini söyler.</footer>
+</main>
+<script>
+const TUR = {1: __TUR1__, 2: __TUR2__};
+let secili = 1;
+const durum = document.getElementById("durum"), yedek = document.getElementById("yedek");
+function yedekGoster(n, baslik){
+  secili = n;
+  const q = encodeURIComponent(TUR[n]);
+  document.getElementById("gpt").href = "https://chatgpt.com/?q=" + q;
+  document.getElementById("claude").href = "https://claude.ai/new?q=" + q;
+  document.getElementById("yedekbaslik").textContent = baslik || "Liste açılmadıysa:";
+  yedek.classList.add("acik");
+}
+async function kopyala(n){
+  try { await navigator.clipboard.writeText(TUR[n]); durum.textContent = "Kopyalandı. Uygulamayı açıp yapıştırın."; return true; }
+  catch(e){ durum.textContent = "Kopyalanamadı; uzun basıp seçin."; return false; }
+}
+document.querySelectorAll("button.tur").forEach(b => b.addEventListener("click", async () => {
+  const n = Number(b.dataset.tur);
+  if (navigator.share) {
+    try {
+      await navigator.share({ text: TUR[n] });
+      durum.textContent = "Uygulamada Gönder'e basın.";
+      return;
+    } catch (e) {
+      if (e && e.name === "AbortError") { durum.textContent = ""; yedekGoster(n); return; }
+    }
+  }
+  yedekGoster(n, "Paylaşım listesi yok. Buradan açın:");
+}));
+document.getElementById("kopya").addEventListener("click", () => kopyala(secili));
+</script>
+</body>
+</html>

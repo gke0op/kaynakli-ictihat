@@ -1,63 +1,30 @@
-# Kaynaklı İçtihat
+# Operatör Yetenekleri
 
-Yapay zekâ sohbet araçları Yargıtay künyesi uydurabiliyor: esas/karar numarası, daire ya da tarih
-gerçek gibi görünür ama kayıtlarda yoktur. Bu araç künyeyi **modelin hafızasından değil, koddan**
-denetler ve karar metnini **birebir** getirir. Karar her zaman insanındır.
+Yapay zekâ işe yarar, ama bazen çok emin bir sesle yanlış söyler: olmayan bir Yargıtay kararı, yanlış bir madde numarası, hatırlanmış gibi sunulan bir sayı. Burada, bu tür işleri daha güvenilir yapmak için hazırladığım, kullanıma hazır yetenekler duruyor. Her biri kendi klasöründe, kendi içinde eksiksiz; buyurun, alın kullanın. Liste zamanla büyüyecek.
 
-## Herkes için: özenli mod
+## Yetenekler
 
-Kurulum gerektirmeyen tek mesaj: ChatGPT, Claude, Gemini ve diğerlerinde her bilgiyi **[BELGE] / [KAYNAK] / [HAFIZA]** diye etiketletir. → [ozenli-mod.md](ozenli-mod.md)
-
-## Müteahhit kütüphanesi
-
-İmar, yapı, iş güvenliği, ihale ve kentsel dönüşüm mevzuatı (17 belge), madde madde ve kelimesi kelimesine, son değişiklik notlarıyla → [kutuphane/](kutuphane/README.md)
+| Yetenek | Ne işe yarar | Kime |
+|---|---|---|
+| [**özenli mod**](skills/ozenli-mod/) | Yapay zekâ verdiği her bilgiyi **[BELGE] / [KAYNAK] / [HAFIZA]** diye etiketler; bilmiyorsa uydurmaz. Kurulum yok, tek mesaj. | Herkes |
+| [**yapı mevzuatı**](skills/yapi-mevzuati/) | İmar, yapı denetimi, iş güvenliği, ihale ve kentsel dönüşüm mevzuatı (17 belge), madde madde, kelimesi kelimesine, son değişiklik notlarıyla. | Müteahhit, yapı sektörü |
+| [**kaynaklı içtihat**](skills/kaynakli-ictihat/) | Yargıtay künyesini model değil **kod** denetler; uydurma künyeyi yakalar, karar metnini birebir getirir. Karar her zaman insanındır. | Hukukçular |
 
 ## Nasıl kullanılır
 
-Hukukçu hiçbir şey kurmaz. [`kaynakli-ictihat.md`](kaynakli-ictihat.md) dosyasını Claude'a ekler ve
-"başla" yazar. Claude ne kuracağını söyler, onay ister, onay gelirse aracı bu depodan sabit bir
-sürümle indirir, imzasını (SHA-256) doğrular, kendi kendini sınar ve adım adım gösterir.
+- **Claude'da yetenek olarak:** yeteneğin klasörü, içindeki `SKILL.md` ile birlikte, Claude'a yetenek olarak eklenir.
+- **Başka bir yapay zekâda ya da yetenek eklemeden:** her klasörde bir `README.md` var; oradan başlayın. Özenli mod, kuralları bir kez yapıştırarak her yapay zekâda çalışır.
 
-## Ne yapar
+## Depo düzeni
 
-| Komut | İş |
-|---|---|
-| `kontrol "<künye>"` | Künye var mı? **BULUNDU / KISMEN / YALNIZ İKİNCİL KAYNAKTA BULUNDU / BULUNAMADI** |
-| `denetle <dosya>` | Dilekçedeki (txt, md, pdf, docx, udf) tüm Yargıtay künyelerini denetler |
-| `konu k1 k2 --daire …` | Konu araması: 9,8 milyon kararın tam metninde terim arar, en çok geçen kararları getirir |
-| `getir "<künye>"` · `cikar Kn --kelime …` | Karar metnini getirir, ilgili paragrafları birebir döker; her paragrafın kimin sözü olduğunu (Yargıtay / alt mahkeme / taraf / karşı oy) yazar |
-| `onayla` · `reddet` | İnsanın kararı kayda geçer |
-| `dogrula <taslak>` | Taslaktaki `[[Kn-Pm]]` etiketlerini onaylı metinle değiştirir, etiketsiz künyeleri işaretler |
-| `kur` · `oztest` | Künye dizinini kurar · kendini sınar (geçmezse kullanılmaz) |
-
-## Kaynaklar
-
-- **Künye dizini:** açık CC0 korpus [mrfg/turkish-court-decisions](https://huggingface.co/datasets/mrfg/turkish-court-decisions)
-  (Hugging Face) — ~9,8 milyon Yargıtay kararı, 1997–Mayıs 2026. Her kaydın resmî belge numarası
-  `https://mevzuat.adalet.gov.tr/ictihat/<no>` sayfasına karşılık gelir. Kapsam 2025 sonuna kadar
-  geniş; 2026 kısmi.
-- **Teyit:** Adalet Bakanlığı Mevzuat ve İçtihat servisi (açıksa), Hukuki Haber (künyeden kurulan
-  adres; yalnız yayımladığı kararlar).
-- Kaynaklara kendini tanıtarak, istekler arasında bekleyerek erişilir; captcha, giriş ya da
-  engel aşılmaz.
-
-## Ölçüm
-
-On farklı hukuk sorusunda (birleşme, marka, kefalet, iş kazası, haksız tahrik…) önceden yazılmış ölçütle: **9/10 başarılı**, uydurma künye 0. Ayrıntı, hakem notları ve on taslak: [olcum/](olcum/README.md).
+```
+skills/            yetenekler, her biri kendi klasöründe (SKILL.md + araçlar + belgeler)
+olcum/             kaynaklı içtihat aracının on vakalık ölçümü ve hakem notları
+paylas/, araclar/  sunum sayfaları ve onları üreten araçlar
+```
 
 ## Sınırlar
 
-Araç atfın **varlığını** ve metnin **birebirliğini** denetler; alıntının iddiayı desteklediğine
-hukukçu karar verir. "BULUNAMADI", taranan kaynaklarda bulunamadı demektir. Hukuki görüş değildir.
+Hiçbiri hukuki ya da mühendislik görüşü değildir. Araçlar atfın **varlığını** ve metnin **birebirliğini** denetler; metnin işinize uyup uymadığına siz karar verirsiniz. Mevzuat kütüphanesi 19.10.2026 tarihli resmî metinlerdir; kullanmadan önce güncelliğine bakın.
 
-## Sürüm
-
-**v2.4** = commit `e1595fd8725d30e97d1abac432f94e8edc699a9e` (önceki: v2.3 = `076fdf3`, v2.1 = `8ba8e3d`, v2.0 = `8afc5c2`). Talimat dosyası aracı bu commit'e sabitlenmiş adresten indirir; commit kimliği değiştirilemez.
-
-## Doğrulama
-
-```
-sha256sum -c SHA256SUMS
-```
-
-Lisans: MIT (kod). Korpus verisi CC0, kaynağına aittir.
+Lisans: MIT (kod). Kaynaklı içtihat korpusu CC0'dır ve kaynağına aittir. Ekmel Gökçe Özdemir · [LinkedIn](https://www.linkedin.com/in/ekmel-gokce-ozdemir)

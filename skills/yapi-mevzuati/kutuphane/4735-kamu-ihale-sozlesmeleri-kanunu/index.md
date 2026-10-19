@@ -1,0 +1,55 @@
+# 4735 sayılı Kamu İhale Sözleşmeleri Kanunu
+
+Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026). Madde madde, kelimesi kelimesine. En son değişiklik notu: **7/5/2026 tarihli ve 7579 sayılı Kanun** · derlendi: 19.10.2026
+
+- [MADDE 1 — Amaç](madde-001.md) · yayımdan beri değişiklik notu yok
+- [MADDE 2 — Kapsam](madde-002.md) · yayımdan beri değişiklik notu yok
+- [MADDE 3 — Tanımlar](madde-003.md) · yayımdan beri değişiklik notu yok
+- [MADDE 4 — İlkeler](madde-004.md) · yayımdan beri değişiklik notu yok
+- [MADDE 5 — Tip sözleşmeler](madde-005.md) · 20/11/2008 tarihli ve 5812 sayılı Kanun
+- [MADDE 6 — Sözleşme türleri](madde-006.md) · 20/11/2008 tarihli ve 5812 sayılı Kanun
+- [MADDE 7 — Sözleşmede yer alması zorunlu hususlar](madde-007.md) · 4/4/2015 tarihli ve 6645 sayılı Kanun
+- [MADDE 8 — Fiyat farkı verilebilmesi](madde-008.md) · 10/9/2014 tarihli ve 6552 sayılı Kanun
+- [MADDE 9 — İş ve işyerinin sigortalanması](madde-009.md) · 20/11/2008 tarihli ve 5812 sayılı Kanun
+- [MADDE 10 — Mücbir sebepler](madde-010.md) · yayımdan beri değişiklik notu yok
+- [MADDE 11 — Denetim, muayene ve kabul işlemleri](madde-011.md) · yayımdan beri değişiklik notu yok
+- [MADDE 12 — Ek kesin teminat](madde-012.md) · 30/7/2003 tarihli ve 4964 sayılı Kanun
+- [MADDE 13 — Kesin teminat ve ek kesin teminatların geri verilmesi](madde-013.md) · yayımdan beri değişiklik notu yok
+- [MADDE 14 — İade edilemeyen teminatlar](madde-014.md) · yayımdan beri değişiklik notu yok
+- [MADDE 15 — Sözleşmede değişiklik yapılması](madde-015.md) · yayımdan beri değişiklik notu yok
+- [MADDE 16 — Sözleşmenin devri](madde-016.md) · yayımdan beri değişiklik notu yok
+- [MADDE 17 — Yüklenicinin ölümü, iflası, ağır hastalığı, tutukluluğu veya mahkumiyeti](madde-017.md) · yayımdan beri değişiklik notu yok
+- [MADDE 18 — mahkumiyet3](madde-018.md) · yayımdan beri değişiklik notu yok
+- [MADDE 19 — Yüklenicinin sözleşmeyi feshetmesi](madde-019.md) · yayımdan beri değişiklik notu yok
+- [MADDE 20 — İdarenin sözleşmeyi feshetmesi](madde-020.md) · yayımdan beri değişiklik notu yok
+- [MADDE 21 — Sözleşmeden önceki yasak fiil veya davranışlar nedeniyle fesih](madde-021.md) · yayımdan beri değişiklik notu yok
+- [MADDE 22 — Sözleşmenin feshine ilişkin düzenlemeler](madde-022.md) · yayımdan beri değişiklik notu yok
+- [MADDE 23 — Mücbir sebeplerden dolayı sözleşmenin feshi](madde-023.md) · yayımdan beri değişiklik notu yok
+- [MADDE 24 — Sözleşme kapsamında yaptırılabilecek ilave işler, iş eksilişi ve işin tasfiyesi5](madde-024.md) · 30/7/2003 tarihli ve 4964 sayılı Kanun
+- [MADDE 25 — Yasak fiil ve davranışlar](madde-025.md) · yayımdan beri değişiklik notu yok
+- [MADDE 26 — İhalelere katılmaktan yasaklama](madde-026.md) · 30/7/2003 tarihli ve 4964 sayılı Kanun
+- [MADDE 27 — Yüklenicilerin ceza sorumluluğu](madde-027.md) · yayımdan beri değişiklik notu yok
+- [MADDE 28 — Görevlilerin ceza sorumluluğu](madde-028.md) · 30/7/2003 tarihli ve 4964 sayılı Kanun
+- [MADDE 29 — Bilgi ve belgeleri açıklama yasağı](madde-029.md) · yayımdan beri değişiklik notu yok
+- [MADDE 30 — Yapım işlerinde yüklenicilerin ve alt yüklenicilerin sorumluluğu](madde-030.md) · yayımdan beri değişiklik notu yok
+- [MADDE 31 — Yapı denetim görevlilerinin sorumluluğu](madde-031.md) · yayımdan beri değişiklik notu yok
+- [MADDE 32 — Danışmanlık hizmeti sunucularının sorumluluğu](madde-032.md) · yayımdan beri değişiklik notu yok
+- [MADDE 33 — Tedarikçilerin sorumluluğu](madde-033.md) · yayımdan beri değişiklik notu yok
+- [MADDE 34 — Hizmet sunucularının sorumluluğu](madde-034.md) · yayımdan beri değişiklik notu yok
+- [MADDE 35 — Teminat](madde-035.md) · yayımdan beri değişiklik notu yok
+- [MADDE 36 — Hüküm bulunmayan haller](madde-036.md) · yayımdan beri değişiklik notu yok
+- [MADDE 37 — Tebligat](madde-037.md) · yayımdan beri değişiklik notu yok
+- [MADDE 38 — Değişiklik yapılması](madde-038.md) · yayımdan beri değişiklik notu yok
+- [MADDE 39 — Uygulanmayacak hükümler](madde-039.md) · 30/7/2003 tarihli ve 4964 sayılı Kanun
+- [EK MADDE 1 — Yüksek Fen Kurulu Başkanlığı](madde-ek-1.md) · 14/2/2020 tarihli ve 7221 sayılı Kanun
+- [EK MADDE 2 — Sözleşme uygulamalarına yönelik itiraz başvuruları ve anlaşmazlıkların çözümü](madde-ek-2.md) · 7/5/2026 tarihli ve 7579 sayılı Kanun
+- [GEÇİCİ MADDE 1 — Tip sözleşmelerin hazırlanması](madde-gecici-1.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 2 — Yapım işlerinde fiyat farkı](madde-gecici-2.md) · 30/7/2008 tarihli ve 5794 sayılı Kanun
+- [GEÇİCİ MADDE 3 — Elektrik alımı sözleşmelerinde ek fiyat farkı](madde-gecici-3.md) · 16/5/2018 tarihli ve 7144 sayılı Kanun
+- [GEÇİCİ MADDE 4 — Sözleşmelerin tasfiyesi veya devri](madde-gecici-4.md) · 17/1/2019 tarihli ve 7161 sayılı Kanun
+- [GEÇİCİ MADDE 5 — Ek fiyat farkı ve/veya sözleşmelerin devri](madde-gecici-5.md) · 19/1/2022 tarihli ve 7351 sayılı Kanun
+- [GEÇİCİ MADDE 6 — Ek fiyat farkı veya sözleşmelerin feshi](madde-gecici-6.md) · 8/4/2022 tarihli ve 7394 sayılı Kanun
+- [GEÇİCİ MADDE 7 — Yapım işlerine ek fiyat farkı ve süre uzatımı verilmesi](madde-gecici-7.md) · 27/12/2023 tarihli ve 7491 sayılı Kanun
+- [MADDE 40 — Yürürlük](madde-040.md) · yayımdan beri değişiklik notu yok
+- [MADDE 41 — Yürütme](madde-041.md) · yayımdan beri değişiklik notu yok
+- [İşlenemeyen hüküm · 30/7/2003 tarihli ve 4964 sayılı Kanunun hükmüdür · GEÇİCİ MADDE 1](islenemeyen-madde-gecici-1.md) · yayımdan beri değişiklik notu yok

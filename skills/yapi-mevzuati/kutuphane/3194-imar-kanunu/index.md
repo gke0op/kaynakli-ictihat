@@ -1,0 +1,90 @@
+# 3194 sayılı İmar Kanunu
+
+Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026). Madde madde, kelimesi kelimesine. En son değişiklik notu: **7/5/2026 tarihli ve 7579 sayılı Kanun** · derlendi: 19.10.2026
+
+- [MADDE 1](madde-001.md) · yayımdan beri değişiklik notu yok
+- [MADDE 2](madde-002.md) · yayımdan beri değişiklik notu yok
+- [MADDE 3](madde-003.md) · yayımdan beri değişiklik notu yok
+- [MADDE 4](madde-004.md) · 1/2/2018 tarihli ve 7071 sayılı Kanun
+- [MADDE 5](madde-005.md) · 5/12/2024 tarihli ve 7534 sayılı Kanun
+- [MADDE 6](madde-006.md) · yayımdan beri değişiklik notu yok
+- [MADDE 7](madde-007.md) · yayımdan beri değişiklik notu yok
+- [MADDE 8 — Planların hazırlanması ve yürürlüğe konulması:5](madde-008.md) · 14/2/2020 tarihli ve 7221 sayılı Kanun
+- [MADDE 9](madde-009.md) · 3/7/2005 tarihli ve 5398 sayılı Kanun
+- [MADDE 10](madde-010.md) · yayımdan beri değişiklik notu yok
+- [MADDE 11](madde-011.md) · 24/7/2008 tarihli ve 5793 sayılı Kanun
+- [MADDE 12](madde-012.md) · yayımdan beri değişiklik notu yok
+- [MADDE 13](madde-013.md) · 5/12/2024 tarihli ve 7534 sayılı Kanun
+- [MADDE 14](madde-014.md) · yayımdan beri değişiklik notu yok
+- [MADDE 15](madde-015.md) · 4/7/2019 tarihli ve 7181 sayılı Kanun
+- [MADDE 16](madde-016.md) · yayımdan beri değişiklik notu yok
+- [MADDE 17](madde-017.md) · yayımdan beri değişiklik notu yok
+- [MADDE 18 — Parselasyon planlarının hazırlanması:18](madde-018.md) · 5/12/2024 tarihli ve 7534 sayılı Kanun
+- [MADDE 19](madde-019.md) · yayımdan beri değişiklik notu yok
+- [MADDE 20](madde-020.md) · yayımdan beri değişiklik notu yok
+- [MADDE 21](madde-021.md) · yayımdan beri değişiklik notu yok
+- [MADDE 22](madde-022.md) · yayımdan beri değişiklik notu yok
+- [MADDE 23](madde-023.md) · yayımdan beri değişiklik notu yok
+- [MADDE 24](madde-024.md) · yayımdan beri değişiklik notu yok
+- [MADDE 25](madde-025.md) · yayımdan beri değişiklik notu yok
+- [MADDE 26](madde-026.md) · 29/11/2018 tarihli ve 7153 sayılı Kanun
+- [MADDE 27 — Köylerde yapılacak yapılar ve uyulacak esaslar29](madde-027.md) · 14/2/2020 tarihli ve 7221 sayılı Kanun
+- [MADDE 28 — Müelliflik, fenni mesuliyet, şantiye şefliği, yapı müteahhitliği ve kayıtlar:32](madde-028.md) · 7/5/2026 tarihli ve 7579 sayılı Kanun
+- [MADDE 29](madde-029.md) · yayımdan beri değişiklik notu yok
+- [MADDE 30](madde-030.md) · yayımdan beri değişiklik notu yok
+- [MADDE 31](madde-031.md) · yayımdan beri değişiklik notu yok
+- [MADDE 32](madde-032.md) · 14/2/2020 tarihli ve 7221 sayılı Kanun
+- [MADDE 33](madde-033.md) · yayımdan beri değişiklik notu yok
+- [MADDE 34](madde-034.md) · yayımdan beri değişiklik notu yok
+- [MADDE 35](madde-035.md) · yayımdan beri değişiklik notu yok
+- [MADDE 36](madde-036.md) · yayımdan beri değişiklik notu yok
+- [MADDE 37](madde-037.md) · 4/7/2019 tarihli ve 7181 sayılı Kanun
+- [MADDE 38](madde-038.md) · 26/4/1989 tarihli ve 3542 sayılı Kanun
+- [MADDE 39](madde-039.md) · 4/7/2019 tarihli ve 7181 sayılı Kanun
+- [MADDE 40](madde-040.md) · 7/5/2026 tarihli ve 7579 sayılı Kanun
+- [MADDE 41](madde-041.md) · yayımdan beri değişiklik notu yok
+- [MADDE 42 — İdari müeyyideler:38](madde-042.md) · 7/5/2026 tarihli ve 7579 sayılı Kanun
+- [MADDE 43](madde-043.md) · yayımdan beri değişiklik notu yok
+- [MADDE 44](madde-044.md) · 7/5/2026 tarihli ve 7579 sayılı Kanun
+- [MADDE 45](madde-045.md) · yayımdan beri değişiklik notu yok
+- [MADDE 46 — 2960 Sayılı Boğaziçi Kanunu ile İlgili Hükümler](madde-046.md) · yayımdan beri değişiklik notu yok
+- [MADDE 47](madde-047.md) · yayımdan beri değişiklik notu yok
+- [EK MADDE 1 — mezkür kanundaki yerlerine işlenmişlerdir.)](madde-ek-1.md) · yayımdan beri değişiklik notu yok
+- [EK MADDE 2](madde-ek-2.md) · 31/7/1998 tarihli ve 4380 sayılı Kanun
+- [EK MADDE 3](madde-ek-3.md) · 3/7/2005 tarihli ve 5398 sayılı Kanun
+- [EK MADDE 4](madde-ek-4.md) · yayımdan beri değişiklik notu yok
+- [EK MADDE 5 — K.: 2014/184 sayılı Kararı ile.)](madde-ek-5.md) · 16/5/2012 tarihli ve 6306 sayılı Kanun
+- [EK MADDE 6](madde-ek-6.md) · 29/11/2018 tarihli ve 7153 sayılı Kanun
+- [EK MADDE 7](madde-ek-7.md) · 4/7/2019 tarihli ve 7181 sayılı Kanun
+- [EK MADDE 8](madde-ek-8.md) · 5/12/2024 tarihli ve 7534 sayılı Kanun
+- [EK MADDE 9 — Elektronik haberleşme altyapılarında yapı ruhsatı alınması](madde-ek-9.md) · 5/12/2024 tarihli ve 7534 sayılı Kanun
+- [EK MADDE 10](madde-ek-10.md) · 16/11/2022 tarihli ve 7421 sayılı Kanun
+- [EK MADDE 11](madde-ek-11.md) · 5/12/2024 tarihli ve 7534 sayılı Kanun
+- [EK MADDE 12](madde-ek-12.md) · 21/7/2025 tarihli ve 7557 sayılı Kanun
+- [GEÇİCİ MADDE 1](madde-gecici-1.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 2](madde-gecici-2.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 3](madde-gecici-3.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 4 — Müşterek giriş](madde-gecici-4.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 5](madde-gecici-5.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 6](madde-gecici-6.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 7](madde-gecici-7.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 8](madde-gecici-8.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 9](madde-gecici-9.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 10](madde-gecici-10.md) · 8/1/2002 tarihli ve 4736 sayılı Kanun
+- [GEÇİCİ MADDE 11](madde-gecici-11.md) · 9/7/2008 tarihli ve 5784 sayılı Kanun
+- [GEÇİCİ MADDE 12](madde-gecici-12.md) · 9/12/2009 tarihli ve 5940 sayılı Kanun
+- [GEÇİCİ MADDE 13](madde-gecici-13.md) · 9/12/2009 tarihli ve 5940 sayılı Kanun
+- [GEÇİCİ MADDE 14](madde-gecici-14.md) · 16/5/2012 tarihli ve 6306 sayılı Kanun
+- [GEÇİCİ MADDE 15](madde-gecici-15.md) · 14/4/2016 tarihli ve 6704 sayılı Kanun
+- [GEÇİCİ MADDE 16](madde-gecici-16.md) · 23/7/2024 tarihli ve 4 sayılı Kanun
+- [GEÇİCİ MADDE 17](madde-gecici-17.md) · 29/11/2018 tarihli ve 7153 sayılı Kanun
+- [GEÇİCİ MADDE 18](madde-gecici-18.md) · 29/11/2018 tarihli ve 7153 sayılı Kanun
+- [GEÇİCİ MADDE 19](madde-gecici-19.md) · 4/7/2019 tarihli ve 7181 sayılı Kanun
+- [GEÇİCİ MADDE 20](madde-gecici-20.md) · 14/2/2020 tarihli ve 7221 sayılı Kanun
+- [GEÇİCİ MADDE 21](madde-gecici-21.md) · 14/2/2020 tarihli ve 7221 sayılı Kanun
+- [GEÇİCİ MADDE 22](madde-gecici-22.md) · 14/2/2020 tarihli ve 7221 sayılı Kanun
+- [GEÇİCİ MADDE 23](madde-gecici-23.md) · 25/3/2020 tarihli ve 7226 sayılı Kanun
+- [GEÇİCİ MADDE 24](madde-gecici-24.md) · 5/12/2024 tarihli ve 7534 sayılı Kanun
+- [GEÇİCİ MADDE 25](madde-gecici-25.md) · 10/6/2022 tarihli ve 7410 sayılı Kanun
+- [MADDE 49](madde-049.md) · yayımdan beri değişiklik notu yok
+- [MADDE 50](madde-050.md) · 27/12/2018 tarihli ve 7159 sayılı Kanun

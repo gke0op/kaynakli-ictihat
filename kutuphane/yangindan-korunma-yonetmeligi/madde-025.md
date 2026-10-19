@@ -1,0 +1,9 @@
+# Binaların Yangından Korunması Hakkında Yönetmelik — MADDE 25 · Yangın duvarları
+
+> Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `d82d06d2d66410c3…` · Bu maddedeki son değişiklik notu: yayımdan beri değişiklik notu yok
+
+(1) Bitişik nizam yapıları birbirinden ayıran yangın duvarları, yangına en az 90 dakika dayanıklı olarak projelendirilir. Yangın duvarlarının cephe ve çatılarda göstermeleri gereken özellikler ilgili maddelerde belirtilmiştir.
+
+(2) Yangın duvarlarında delik ve boşluk bulunamaz. Duvarlarda kapı ve sabit ışık penceresi gibi boşluklardan kaçınmak mümkün değil ise, bunların en az yangın duvarının direncinin yarı süresi kadar yangına karşı dayanıklı olması gerekir. Kapıların kendiliğinden kapanması ve duman sızdırmaz özellikte olması mecburidir. Bu tür yarı mukavemetli boşlukların çevresi her türlü yanıcı maddeden arındırılır. Su, elektrik, ısıtma, havalandırma tesisatının ve benzeri tesisatın yangın duvarından geçmesi hâlinde, tesisat çevresi, açıklık kalmayacak şekilde en az yangın duvarı yangın dayanım süresi kadar, yangın ve duman geçişine karşı yalıtılır.
+
+(3) Yüksek binalarda, çöp, haberleşme, evrak ve teknik donanım gibi, düşey tesisat şaft ve baca duvarlarının yangına en az 120 dakika ve kapaklarının en az 90 dakika dayanıklı ve duman sızdırmaz olması gerekir.

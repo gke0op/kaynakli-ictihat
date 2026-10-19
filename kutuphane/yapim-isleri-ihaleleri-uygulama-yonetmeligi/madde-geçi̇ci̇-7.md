@@ -1,0 +1,11 @@
+# Yapım İşleri İhaleleri Uygulama Yönetmeliği — GEÇİCİ MADDE 7 · ihalelerde isteklinin iş hacmini gösteren belgelerdeki yeterlik kriterleri
+
+> Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `a806732c718dee7d…` · Bu maddedeki son değişiklik notu: RG 4/3/2010-27511
+
+(Ek:RG-3/7/2009-27277)
+
+(1) İlanı veya duyurusu (Değişik ibare:RG-4/3/2010-27511)1/5/2011 tarihinden önce yapılan ihalelerde, 36 ncı maddenin üçüncü fıkrasındaki yeterlik kriterlerinde aşağıdaki oranlar uygulanır:
+
+a) Açık ihale usulüyle yapılan ihaleler ile Kanunun 21 inci maddesinin (b) ve (c) bentlerine göre yapılan ihalelerde; ciro için, teklif edilen bedelin % 15’inden, taahhüt altında devam eden yapım işlerinin gerçekleştirilen kısmının veya bitirilen yapım işlerinin parasal tutarı için ise teklif edilen bedelin % 12’sinden az olmaması,
+
+b) Belli istekliler arasında ihale usulüyle yapılan ihalelerin ön yeterlik aşaması ile Kanunun 21 inci maddesinin (a), (d) ve € bentlerine göre yapılan ihalelerin yeterlik aşamasında; ciro için, yaklaşık maliyetin % 15’i ile % 25’i aralığında idarece belirlenen tutardan, taahhüt altında devam eden yapım işlerinin gerçekleştirilen kısmının veya bitirilen yapım işlerinin parasal tutarı için ise yaklaşık maliyetin % 12’si ile % 20’si aralığında idarece belirlenen tutardan az olmaması, gerekir. Bu kriterlerden herhangi birini sağlayan ve sağladığı kritere ilişkin belgeyi sunan aday veya istekli yeterli kabul edilir.

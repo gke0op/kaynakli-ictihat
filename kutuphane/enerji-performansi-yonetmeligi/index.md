@@ -1,0 +1,45 @@
+# Binalarda Enerji Performansı Yönetmeliği
+
+Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026). Madde madde, kelimesi kelimesine. En son değişiklik notu: **RG 16/5/2026-33255** · derlendi: 19.10.2026
+
+- [MADDE 1 — Amaç](madde-001.md) · RG 1/4/2010-27539
+- [MADDE 2 — Kapsam](madde-002.md) · RG 16/5/2026-33255
+- [MADDE 3 — Dayanak](madde-003.md) · RG 19/2/2022-31755
+- [MADDE 4 — Tanımlar ve kısaltmalar](madde-004.md) · RG 16/5/2026-33255
+- [MADDE 5 — İlkeler](madde-005.md) · RG 16/5/2026-33255
+- [MADDE 6 — Görev, yetki ve sorumluluk](madde-006.md) · RG 24/6/2025-32936
+- [MADDE 7 — Bina enerji performansı açısından mimari proje tasarımı](madde-007.md) · RG 24/6/2025-32936
+- [MADDE 8 — Mimari uygulamalar](madde-008.md) · RG 24/6/2025-32936
+- [MADDE 9 — Bina ısı yalıtımı esasları](madde-009.md) · RG 1/4/2010-27539
+- [MADDE 10 — Isı yalıtım projesi zorunluluğu](madde-010.md) · yayımdan beri değişiklik notu yok
+- [MADDE 11 — Mekanik tesisat yalıtımı esasları](madde-011.md) · RG 1/4/2010-27539
+- [MADDE 12 — Asgari hava sirkülasyonu ve sızdırmazlık](madde-012.md) · RG 24/6/2025-32936
+- [MADDE 13 — Isıtma sistemleri tasarım esasları](madde-013.md) · RG 24/6/2025-32936
+- [MADDE 14 — Isıtma sistemleri uygulama esasları](madde-014.md) · RG 1/4/2010-27539
+- [MADDE 15 — Soğutma sistemleri tasarım esasları](madde-015.md) · RG 1/4/2010-27539
+- [MADDE 16 — Soğutma sistemleri uygulama esasları](madde-016.md) · RG 1/4/2010-27539
+- [MADDE 17 — Havalandırma ve iklimlendirme sistemleri tasarım esasları](madde-017.md) · RG 1/4/2010-27539
+- [MADDE 18 — Havalandırma ve iklimlendirme sistemleri uygulama esasları](madde-018.md) · RG 1/4/2010-27539
+- [MADDE 19 — Sıhhi sıcak su hazırlama ve dağıtım sistemleri](madde-019.md) · RG 24/6/2025-32936
+- [MADDE 20 — Otomatik kontrol](madde-020.md) · RG 24/6/2025-32936
+- [MADDE 21 — Elektrik tesisatı ve aydınlatma sistemleri](madde-021.md) · RG 1/4/2010-27539
+- [MADDE 22 — sistemlerinin kullanımı (Değişik başlık:RG-1/4/2010-27539)](madde-022.md) · RG 19/2/2022-31755
+- [MADDE 23 — NSEB](madde-023.md) · RG 24/6/2025-32936
+- [MADDE 24 — İşletme ve periyodik bakım (Değişik başlık:RG-1/4/2010-27539)](madde-024.md) · RG 24/6/2025-32936
+- [MADDE 24/A — Denetim yapacak kurum ve kuruluşlar](madde-24-A.md) · RG 24/6/2025-32936
+- [MADDE 25 — Enerji kimlik belgesi düzenlenmesi (Değişik başlık:RG-1/4/2010-27539)](madde-025.md) · RG 24/6/2025-32936
+- [MADDE 26 — Enerji kimlik belgesinde bulunması gereken bilgiler](madde-026.md) · RG 1/4/2010-27539
+- [MADDE 26/A — Başlık:RG-24/6/2025-32936)](madde-26-A.md) · RG 24/6/2025-32936
+- [MADDE 27 — Yıllık enerji ihtiyacı](madde-027.md) · RG 1/4/2010-27539
+- [MADDE 27/A — Düşük karbonlu bina belgesi](madde-27-A.md) · RG 16/5/2026-33255
+- [MADDE 28 — Yürürlükten kaldırılan yönetmelik](madde-028.md) · yayımdan beri değişiklik notu yok
+- [EK MADDE 1](madde-ek-1.md) · RG 1/4/2010-27539
+- [GEÇİCİ MADDE 1 — Standardların belirlenmesi](madde-geçi̇ci̇-1.md) · RG 1/4/2010-27539
+- [GEÇİCİ MADDE 2 — Tebliğlerin çıkarılması](madde-geçi̇ci̇-2.md) · RG 30/6/2010-27627
+- [GEÇİCİ MADDE 3 — Mevcut binalara enerji kimlik belgesi verilmesi (Değişik başlık:RG-1/4/2010-27539)](madde-geçi̇ci̇-3.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 4 — Enerji Kimlik Belgesi Verilmesi](madde-geçi̇ci̇-4.md) · RG 30/6/2010-27627
+- [GEÇİCİ MADDE 5](madde-geçi̇ci̇-5.md) · RG 24/6/2025-32936
+- [GEÇİCİ MADDE 6](madde-geçi̇ci̇-6.md) · RG 24/6/2025-32936
+- [GEÇİCİ MADDE 7 — Geçiş hükmü](madde-geçi̇ci̇-7.md) · RG 24/6/2025-32936
+- [MADDE 29 — Yürürlük](madde-029.md) · yayımdan beri değişiklik notu yok
+- [MADDE 30 — Yürütme](madde-030.md) · RG 19/2/2022-31755

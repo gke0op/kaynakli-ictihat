@@ -1,0 +1,5 @@
+# 3194 sayılı İmar Kanunu — MADDE 29
+
+> Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `5557b139186efcd6…` · Bu maddedeki son değişiklik notu: yayımdan beri değişiklik notu yok
+
+Yapıya başlama müddeti ruhsat tarihinden itibaren iki yıldır. Bu müddet zarfında yapıya başlanmadığı veya yapıya başlanıp da her ne sebeple olursa olsun, başlama müddetiyle birlikte beş yıl içinde bitirilmediği takdirde verilen ruhsat hükümsüz sayılır. Bu durumda yeniden ruhsat alınması mecburidir. Başlanmış inşaatlarda müktesep haklar saklıdır. Ruhsat yenilenmesi ve plan tadili sırasında ayrıca harç alınmaz. Ancak inşaat sahasında artış, bağımsız bölümlerin brüt alanında veya niteliğinde değişme olması halinde yeniden hesaplanacak harçtan evvelce ödenen harç tutarı, tenzil edilir. Yeni durumda hesaplanan harç tutarında azalma olması halinde iade yapılmaz. Diğer kanunlardaki muafiyet hükümleri saklıdır. Ruhsat ve eklerinin yapı yerinde bulundurulması mecburidir. Yapı kullanma izni:

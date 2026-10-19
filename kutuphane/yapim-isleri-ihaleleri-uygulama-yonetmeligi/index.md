@@ -1,0 +1,120 @@
+# Yapım İşleri İhaleleri Uygulama Yönetmeliği
+
+Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026). Madde madde, kelimesi kelimesine. En son değişiklik notu: **RG 13/5/2026-33252** · derlendi: 19.10.2026
+
+- [MADDE 1 — Amaç ve kapsam](madde-001.md) · RG 18/5/2024-32550
+- [MADDE 2 — Dayanak](madde-002.md) · yayımdan beri değişiklik notu yok
+- [MADDE 3 — Tanımlar ve kısaltmalar (Değişik başlık:RG- 18/5/2024-32550)(10)](madde-003.md) · RG 9/4/2026-33219
+- [MADDE 4 — Temel ilkeler](madde-004.md) · yayımdan beri değişiklik notu yok
+- [MADDE 5 — İhalelerde uyulması zorunlu hususlar](madde-005.md) · RG 18/5/2024-32550
+- [MADDE 6 — Yerli istekli](madde-006.md) · yayımdan beri değişiklik notu yok
+- [MADDE 7 — Tebligat esasları (Değişik başlık:RG- 18/5/2024-32550)(10)](madde-007.md) · RG 18/5/2024-32550
+- [MADDE 8 — Yaklaşık maliyete ilişkin ilkeler](madde-008.md) · yayımdan beri değişiklik notu yok
+- [MADDE 9 — Yaklaşık maliyetin hesaplanmasına esas miktarların tespiti](madde-009.md) · yayımdan beri değişiklik notu yok
+- [MADDE 10 — Yaklaşık maliyet hesabına esas fiyat ve rayiçlerin tespiti](madde-010.md) · RG 30/7/2025-32971
+- [MADDE 11 — Yaklaşık maliyetin hesaplanması ve güncellenmesi](madde-011.md) · RG 30/7/2025-32971
+- [MADDE 12](madde-012.md) · RG 16/3/2011-27876
+- [MADDE 13 — İhale ve ön yeterlik dokümanının içeriği](madde-013.md) · yayımdan beri değişiklik notu yok
+- [MADDE 14 — İhale ve ön yeterlik dokümanının hazırlanması](madde-014.md) · RG 18/5/2024-32550
+- [MADDE 15 — İdari şartname](madde-015.md) · yayımdan beri değişiklik notu yok
+- [MADDE 16 — Ön yeterlik şartnamesi](madde-016.md) · yayımdan beri değişiklik notu yok
+- [MADDE 17 — Teknik şartname](madde-017.md) · yayımdan beri değişiklik notu yok
+- [MADDE 18 — Sözleşme Tasarısı](madde-018.md) · yayımdan beri değişiklik notu yok
+- [MADDE 19 — İhale onayının alınması](madde-019.md) · RG 16/3/2011-27876
+- [MADDE 20 — İhale komisyonunun kurulması ve çalışma esasları](madde-020.md) · yayımdan beri değişiklik notu yok
+- [MADDE 21 — İhale işlem dosyası](madde-021.md) · RG 18/5/2024-32550
+- [MADDE 22 — İhale ve ön yeterlik ilanı](madde-022.md) · RG 18/5/2024-32550
+- [MADDE 23 — Ön ilan](madde-023.md) · yayımdan beri değişiklik notu yok
+- [MADDE 24 — İhale ilan ve davet sürelerinin kısaltılması](madde-024.md) · yayımdan beri değişiklik notu yok
+- [MADDE 25 — İlanın uygun olmaması](madde-025.md) · RG 18/5/2024-32550
+- [MADDE 26](madde-026.md) · RG 18/5/2024-32550
+- [MADDE 27 — İhale ve ön yeterlik dokümanında değişiklik veya açıklama yapılması](madde-027.md) · RG 18/5/2024-32550
+- [MADDE 28 — İhale veya son başvuru saatinden önce ihalenin iptal edilmesi](madde-028.md) · RG 18/5/2024-32550
+- [MADDE 29 — Yeterliğin belirlenmesinde uyulacak ilkeler](madde-029.md) · RG 29/12/2022-32058
+- [MADDE 30 — İstenecek belgeler](madde-030.md) · RG 29/12/2022-32058
+- [MADDE 31 — Belgelerin sunuluş şekli](madde-031.md) · RG 18/5/2024-32550
+- [MADDE 32 — İş ortaklığı](madde-032.md) · RG 18/5/2024-32550
+- [MADDE 33 — Konsorsiyum](madde-033.md) · RG 18/5/2024-32550
+- [MADDE 34 — Bankalardan temin edilecek belgeler](madde-034.md) · RG 29/12/2022-32058
+- [MADDE 35 — Bilanço veya eşdeğer belgeler](madde-035.md) · RG 9/4/2026-33219
+- [MADDE 36 — İsteklinin iş hacmini gösteren belgeler](madde-036.md) · RG 9/4/2026-33219
+- [MADDE 37 — İş hacmine ilişkin belge tutarlarının güncellemesi](madde-037.md) · RG 7/6/2014-29023
+- [MADDE 38 — gösteren belgeler](madde-038.md) · RG 18/5/2024-32550
+- [MADDE 39 — İş deneyimini gösteren belgeler](madde-039.md) · RG 16/3/2019-30716
+- [MADDE 40 — İsteklinin organizasyon yapısı ve personel durumuna ilişkin belgeler](madde-040.md) · RG 13/8/2012-28383
+- [MADDE 41 — R.G/1. Md., yürürlük: 20.10.2020)](madde-041.md) · RG 13/12/2017-30269
+- [MADDE 42 — Kalite yönetim sistem belgesi ve çevre yönetim sistem belgesi](madde-042.md) · RG 3/7/2009-27277
+- [MADDE 43 — İş deneyim belgesi düzenlemeye yetkili kurum ve kuruluşlar](madde-043.md) · RG 18/5/2024-32550
+- [MADDE 44 — Belge düzenleme koşulları](madde-044.md) · RG 13/5/2026-33252
+- [MADDE 45 — Belge için başvuru](madde-045.md) · RG 25/1/2017-29959
+- [MADDE 46 — İş deneyim tutarının tespiti](madde-046.md) · RG 13/5/2026-33252
+- [MADDE 47 — İş deneyim belgelerinin verilmesi](madde-047.md) · RG 18/5/2024-32550
+- [MADDE 48 — Değerlendirmeye ilişkin esaslar](madde-048.md) · RG 25/1/2017-29959
+- [MADDE 48/A — için düzenlenen belgeler](madde-48-A.md) · RG 18/5/2024-32550
+- [MADDE 49 — İş deneyim tutarının güncellenmesi](madde-049.md) · RG 13/5/2026-33252
+- [MADDE 50 — İhale Komisyonlarının inceleme yetkisi](madde-050.md) · yayımdan beri değişiklik notu yok
+- [MADDE 51 — Müteahhitlik Karneleri](madde-051.md) · yayımdan beri değişiklik notu yok
+- [MADDE 52 — İhale dışı bırakılma](madde-052.md) · RG 7/6/2014-29023
+- [MADDE 53 — İhaleye katılamayacak olanlar](madde-053.md) · RG 13/4/2013-28617
+- [MADDE 54 — Başvuru ve teklif mektuplarının şekli](madde-054.md) · RG 18/5/2024-32550
+- [MADDE 55 — Tekliflerin geçerlilik süresi](madde-055.md) · yayımdan beri değişiklik notu yok
+- [MADDE 56 — Teminatlar](madde-056.md) · RG 18/5/2024-32550
+- [MADDE 57 — tamamlatılması](madde-057.md) · RG 18/5/2024-32550
+- [MADDE 58 — Başvuruların değerlendirilmesi](madde-058.md) · RG 18/5/2024-32550
+- [MADDE 59 — Tekliflerin değerlendirilmesi](madde-059.md) · RG 18/5/2024-32550
+- [MADDE 60](madde-060.md) · RG 18/5/2024-32550
+- [MADDE 60/A — Elektronik ihale (Ek madde: 19.06.2018-30453/m RG/7. Md., yürürlük: 2.1.2019)](madde-60-A.md) · RG 18/5/2024-32550
+- [MADDE 60/B — Elektronik eksiltme (Ek madde: 19.06.2018-30453/m RG/7. Md., yürürlük: 01.11.2018)](madde-60-B.md) · RG 18/5/2024-32550
+- [MADDE 61 — Ekonomik açıdan en avantajlı teklifin belirlenmesi](madde-061.md) · RG 18/5/2024-32550
+- [MADDE 62 — Fiyat dışı unsurlar ve bu unsurlara yönelik düzenleme](madde-062.md) · yayımdan beri değişiklik notu yok
+- [MADDE 63 — teklifin belirlenmesi](madde-063.md) · yayımdan beri değişiklik notu yok
+- [MADDE 64 — Tekliflerin eşit olması](madde-064.md) · yayımdan beri değişiklik notu yok
+- [MADDE 65 — Bütün tekliflerin reddedilmesi ve ihalenin iptali](madde-065.md) · yayımdan beri değişiklik notu yok
+- [MADDE 66 — İhalenin karara bağlanması ve onaylanması](madde-066.md) · yayımdan beri değişiklik notu yok
+- [MADDE 67 — Kesinleşen ihale kararının bildirilmesi](madde-067.md) · RG 16/7/2011-27996
+- [MADDE 68 — İhale üzerinde kalan isteklinin sözleşmeye davet edilmesi](madde-068.md) · RG 16/7/2011-27996
+- [MADDE 69 — İhale üzerinde kalan isteklinin sözleşmeyi imzalamaması](madde-069.md) · RG 7/6/2014-29023
+- [MADDE 70 — İhale sonucunun ilanı](madde-070.md) · yayımdan beri değişiklik notu yok
+- [MADDE 71 — Yürürlükten kaldırılan yönetmelik](madde-071.md) · yayımdan beri değişiklik notu yok
+- [EK MADDE 1 — İş deneyim belgelerinin EKAP üzerinden düzenlenmesi](madde-ek-1.md) · RG 18/5/2024-32550
+- [EK MADDE 2](madde-ek-2.md) · RG 18/5/2024-32550
+- [EK MADDE 3 — Standart formlara yapılan atıflar](madde-ek-3.md) · RG 18/5/2024-32550
+- [EK MADDE 4 — Hüküm bulunmayan haller](madde-ek-4.md) · RG 9/4/2026-33219
+- [GEÇİCİ MADDE 1 — 5/3/2009 tarihinden önceki ihaleler](madde-geçi̇ci̇-1.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 2 — Daha önce alınmış iş deneyim belgeleri (Değişik başlık: RG-16/7/2011-27996)](madde-geçi̇ci̇-2.md) · RG 16/7/2011-27996
+- [GEÇİCİ MADDE 3 — İsteklinin organizasyon yapısı ve personel durumuna ilişkin uygulama](madde-geçi̇ci̇-3.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 4 — 1/1/2003 tarihinden önce özel sektörde sözleşmeye bağlanan işler](madde-geçi̇ci̇-4.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 5 — Müsteşar ve müsteşar yardımcılarının iş yönetme belgeleri](madde-geçi̇ci̇-5.md) · RG 4/3/2010-27511
+- [GEÇİCİ MADDE 6 — ihalelerde bilanço veya eşdeğer belgelerdeki yeterlik kriterleri](madde-geçi̇ci̇-6.md) · RG 4/3/2010-27511
+- [GEÇİCİ MADDE 7 — ihalelerde isteklinin iş hacmini gösteren belgelerdeki yeterlik kriterleri](madde-geçi̇ci̇-7.md) · RG 4/3/2010-27511
+- [GEÇİCİ MADDE 8 — Başlamış olan ihaleler](madde-geçi̇ci̇-8.md) · RG 16/3/2011-27876
+- [GEÇİCİ MADDE 9 — Başlamış olan ihaleler](madde-geçi̇ci̇-9.md) · RG 16/7/2011-27996
+- [GEÇİCİ MADDE 10 — Başlamış olan ihaleler](madde-geçi̇ci̇-10.md) · RG 2/10/2011-28072
+- [GEÇİCİ MADDE 11 — Başlamış olan ihaleler](madde-geçi̇ci̇-11.md) · RG 13/8/2012-28383
+- [GEÇİCİ MADDE 12 — Başlamış olan ihaleler](madde-geçi̇ci̇-12.md) · RG 28/11/2013-28835
+- [GEÇİCİ MADDE 13 — Geçiş hükümleri](madde-geçi̇ci̇-13.md) · RG 7/6/2014-29023
+- [GEÇİCİ MADDE 14 — Başlamış olan ihaleler](madde-geçi̇ci̇-14.md) · RG 29/11/2016-29903
+- [GEÇİCİ MADDE 15 — Başlamış olan ihaleler](madde-geçi̇ci̇-15.md) · RG 25/1/2017-29959
+- [GEÇİCİ MADDE 16 — Başlamış olan ihaleler](madde-geçi̇ci̇-16.md) · RG 30/12/2017-30286
+- [GEÇİCİ MADDE 17 — Daha önce alınmış iş deneyim belgeleri](madde-geçi̇ci̇-17.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 18 — Başlamış olan ihaleler](madde-geçi̇ci̇-18.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 19 — Daha önce alınmış iş deneyim belgeleri](madde-geçi̇ci̇-19.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 20 — Başlamış olan ihaleler](madde-geçi̇ci̇-20.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 21 — Başlamış olan ihaleler](madde-geçi̇ci̇-21.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 22 — Başlamış olan ihaleler](madde-geçi̇ci̇-22.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 23 — Başlamış olan ihaleler](madde-geçi̇ci̇-23.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 24 — İstanbul Atatürk Kültür Merkezi ile ilgili ihaleler](madde-geçi̇ci̇-24.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 25 — Başlamış olan ihaleler](madde-geçi̇ci̇-25.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 26 — Uygulanmaya başlama süresi](madde-geçi̇ci̇-26.md) · RG 26/1/2021-31376
+- [GEÇİCİ MADDE 27 — Başlamış olan ihaleler](madde-geçi̇ci̇-27.md) · RG 26/1/2021-31376
+- [GEÇİCİ MADDE 28 — Başlamış olan ihaleler](madde-geçi̇ci̇-28.md) · RG 20/6/2021-31517
+- [GEÇİCİ MADDE 29 — Başlamış olan ihaleler](madde-geçi̇ci̇-29.md) · RG 30/11/2021-31675
+- [GEÇİCİ MADDE 30 — Başlamış olan ihaleler](madde-geçi̇ci̇-30.md) · RG 29/12/2022-32058
+- [GEÇİCİ MADDE 31 — Başlamış olan ihaleler](madde-geçi̇ci̇-31.md) · RG 17/1/2023-32076
+- [GEÇİCİ MADDE 32 — Başlamış olan ihaleler](madde-geçi̇ci̇-32.md) · RG 18/5/2024-32550
+- [GEÇİCİ MADDE 33 — Daha önce alınmış iş deneyim belgeleri](madde-geçi̇ci̇-33.md) · RG 10/12/2024-32748
+- [GEÇİCİ MADDE 34 — Başlamış olan ihaleler](madde-geçi̇ci̇-34.md) · RG 30/7/2025-32971
+- [GEÇİCİ MADDE 35 — Başlamış olan ihaleler](madde-geçi̇ci̇-35.md) · RG 9/4/2026-33219
+- [GEÇİCİ MADDE 36 — Uygulanmaya başlama süresi](madde-geçi̇ci̇-36.md) · RG 9/4/2026-33219
+- [MADDE 72 — Yürürlük](madde-072.md) · RG 4/3/2010-27511
+- [MADDE 73 — Yürütme –](madde-073.md) · yayımdan beri değişiklik notu yok

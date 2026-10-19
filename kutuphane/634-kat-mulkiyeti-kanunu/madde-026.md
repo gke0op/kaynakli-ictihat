@@ -1,0 +1,7 @@
+# 634 sayılı Kat Mülkiyeti Kanunu — MADDE 26
+
+> Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `0452d8f449ca98eb…` · Bu maddedeki son değişiklik notu: 14/11/2007 tarihli ve 5711 sayılı Kanun
+
+Kat irtifakı sahipleri bu hakka konu olan ortak arsa üzerinde, ileride kat mülkiyetine çevrilmek üzere yapılacak yapının sözleşmeye ve plana göre tamamlanması için kendilerine düşen borçları vaktinde yerine getirmek ve yapı işini, doğruluk kaideleri uyarınca kolaylaştırmakla, karşılıklı olarak yükümlüdürler.
+
+(Değişik ikinci fıkra: 14/11/2007-5711/13 md.) Kat irtifakı sahiplerinden biri kendine düşen borçları, noter aracılığıyla yapılan ihtara rağmen, bu ihtar tarihinden başlayarak iki ay içinde yerine getirmezse diğerlerinin yazılı istemi üzerine hâkim, onun arsa payının ve kat irtifakının hükme en yakın tarihteki değeri karşılığında, öteki paydaşlara, arsa payları oranında devrine karar verir. Kat irtifakı sahiplerinden birinin kusuru yüzünden, yapının kanuni süre içinde yapılamaması sebebiyle kat irtifakı düşerse, kusurlu taraf diğerlerinin bu yüzden uğradıkları zararı tazminle yükümlüdür. BEŞİNCİ BÖLÜM Anagayrimenkulün Yönetimi A) Genel kurul:

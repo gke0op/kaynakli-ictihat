@@ -1,0 +1,5 @@
+# Yapım İşleri Genel Şartnamesi — MADDE 31 · Mevcut yapıların yıkılması
+
+> Kaynak: mevzuat.gov.tr'deki resmî ek dosyasının PDF'e çevrilmiş hâli (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `f78dfe95f5d7eceb…` · Bu maddedeki son değişiklik notu: RG 30/7/2025-32971
+
+(1) İşyerlerinde yıkılması gereken ve yükleniciye yıktırılan mevcut yapılardan çıkacak malzemenin, yeniden değerlendirilmesi ve gerektiğinde kullanılabilmesi için bu malzemenin yüklenici tarafından dikkatle ayıklanması ve yapı denetim görevlisinin göstereceği yerlere istif edilmesi gereklidir. (Değişik ikinci ve üçüncü cümle:RG-30/7/2025-32971)(Bu değişiklik 1/9/2025 tarihinde yürürlüğe girer.) Bu yıkım işlerine, anahtar teslim götürü bedel sözleşmelerde uygulama projelerinde, birim fiyat sözleşmelerde ise teklif cetvelinde yer verilmesi zorunludur. Sözleşmenin uygulanması sürecinde, idarenin sonradan gerekli görmesi halinde yaptırılacak yıkım işlerinin bedeli 22 nci madde hükümlerine göre belirlenerek yükleniciye ödenir.

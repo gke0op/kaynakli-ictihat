@@ -1,0 +1,7 @@
+# Yapım İşleri Genel Şartnamesi — MADDE 28 · Ataşmanlar ve ilgili diğer defterler
+
+> Kaynak: mevzuat.gov.tr'deki resmî ek dosyasının PDF'e çevrilmiş hâli (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `f78dfe95f5d7eceb…` · Bu maddedeki son değişiklik notu: yayımdan beri değişiklik notu yok
+
+(1) İşyerlerinde, yapılan işlerin bütün ayrıntılarını günü gününe kayıt altına almak için, örneklerine göre şantiye günlük defteri, röleve ve ataşman defterleri, bunlarla ilgili belgeler yüklenici ile birlikte yapı denetim görevlisi tarafından tutulur. Yüklenici bu defterleri ve ilgili belgeleri imzalamak zorundadır. Bunlardan imzalı birer kopya yükleniciye verilir.
+
+(2) Yüklenici ataşmanlar ve ilgili diğer defter ve belgeleri imzalamış olmakla içindekileri ve yapılan hesapların doğruluğunu kabul etmiş olur. İmzalamaz ise veya ihtirazi kayıtlar altında imzalarsa karşı görüşlerini yazılı olarak bildirmesi için, defter ve belgelerin kendisine gösterildiği tarihten başlamak üzere, on gün süre verilir. Bu süre içinde karşı görüşlerini yazı ile bildirmezse belgelerin ve defterlerin içinde kayıtlı hususları kabul ve imza etmiş sayılır. Bu durumu tespit eden bir tutanak düzenlenerek ataşmana eklenir. Ataşman defterinde, mürekkep veya sabit kalem kullanılacak ve yazı, rakam, resim, kroki ve kesitler özenle, açık ve noksansız olacak, kazıntı ve silinti olmayacaktır. Herhangi bir yanlışlık yapıldığı veya görüldüğü takdirde ilk rakam ve yazı okunacak şekilde üzeri kırmızı mürekkeple çizilip, doğrusu yazılarak aynı renkli mürekkeple imza edilir.

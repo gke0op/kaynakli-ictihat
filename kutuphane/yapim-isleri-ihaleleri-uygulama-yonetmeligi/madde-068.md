@@ -1,0 +1,11 @@
+# Yapım İşleri İhaleleri Uygulama Yönetmeliği — MADDE 68 · İhale üzerinde kalan isteklinin sözleşmeye davet edilmesi
+
+> Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `a806732c718dee7d…` · Bu maddedeki son değişiklik notu: RG 16/7/2011-27996
+
+(1) Kanunun 41 inci maddesinde belirtilen sürelerin bitimini, ön mali kontrol yapılması gereken hallerde ise bu kontrolün tamamlandığı tarihi izleyen günden itibaren üç gün içinde ihale üzerinde bırakılan istekliye, tebliğ tarihini izleyen on gün içinde kesin teminatı vermek suretiyle sözleşmeyi imzalaması hususu bildirilir. Yabancı istekliler için bu süreye oniki gün ilave edilir.
+
+(2) Sözleşmenin imzalanacağı tarihte, sözleşme imzalanmadan önce ihale sonuç bilgileri Kuruma gönderilmek suretiyle ihale üzerinde kalan isteklinin ihalelere katılmaktan yasaklı olup olmadığının teyit edilmesi zorunludur.
+
+(3) Mücbir sebep halleri dışında, ihale üzerinde kalan istekli, yasal yükümlülüklerini yerine getirerek sözleşme imzalamak zorundadır. Bu zorunluluğa uyulmaması halinde, ihale üzerinde kalan isteklinin geçici teminatı gelir kaydedilerek Kanunun 58 inci maddesi hükümleri uygulanır. Ancak,
+
+(Mülga ibare: RG-16/7/2011-27996) (…) Kanunun 10 uncu maddesi kapsamında taahhüt altına alınan durumu tevsik etmek üzere idareye sunulan (Ek ibare: 16.03.2019-30716 R.G/14. Md., yürürlük: 26.03.2019) bilgi ve/veya belgelerin taahhüt edilen duruma aykırı hususlar içermesi halinde, ihale üzerinde kalan isteklinin geçici teminatı gelir kaydedilmekle birlikte, hakkında Kanunun 58 inci maddesi hükümleri uygulanmaz.

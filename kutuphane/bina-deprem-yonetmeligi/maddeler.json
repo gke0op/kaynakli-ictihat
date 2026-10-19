@@ -1,0 +1,61 @@
+{
+ "ad": "Türkiye Bina Deprem Yönetmeliği (yönetmelik metni; teknik esaslar ekte)",
+ "sha256": "bf6cefb76922a3deb431a4b5dda42db66ae84b15b1c1484793e86b2a422ccd09",
+ "derlendi": "2026-10-19",
+ "maddeler": [
+  {
+   "dipnot": [],
+   "tablo": false,
+   "etiket": "MADDE 1",
+   "baslik": "Amaç ve kapsam",
+   "dosya": "madde-001.md",
+   "son_degisiklik": "yayımdan beri değişiklik notu yok",
+   "metin": "(1) Bu Yönetmeliğin amacı; yeniden yapılacak, değiştirilecek, büyütülecek resmi ve özel tüm binaların ve bina türü yapıların tamamının veya bölümlerinin deprem etkisi altında tasarımı ve yapımı ile mevcut binaların deprem etkisi altındaki performanslarının değerlendirilmesi ve güçlendirilmesi için gerekli kuralları ve minimum koşulları belirlemektir."
+  },
+  {
+   "dipnot": [],
+   "tablo": false,
+   "etiket": "MADDE 2",
+   "baslik": "Dayanak",
+   "dosya": "madde-002.md",
+   "son_degisiklik": "yayımdan beri değişiklik notu yok",
+   "metin": "(1) Bu Yönetmelik, 15/5/1959 tarihli ve 7269 sayılı Umumi Hayata Müessir Afetler Dolayısıyla Alınacak Tedbirlerle Yapılacak Yardımlara Dair Kanunun 3 üncü maddesi ile 29/5/2009 tarihli ve 5902 sayılı Afet ve Acil Durum Yönetimi Başkanlığının Teşkilat ve Görevleri Hakkında Kanunun 12 nci ve 17 nci maddelerine dayanılarak hazırlanmıştır."
+  },
+  {
+   "dipnot": [],
+   "tablo": false,
+   "etiket": "MADDE 3",
+   "baslik": "Uygulanacak esaslar",
+   "dosya": "madde-003.md",
+   "son_degisiklik": "yayımdan beri değişiklik notu yok",
+   "metin": "(1) Deprem etkisi altında binaların tasarımı için bu Yönetmeliğin ekinde yer alan esaslar uygulanır."
+  },
+  {
+   "dipnot": [],
+   "tablo": false,
+   "etiket": "MADDE 4",
+   "baslik": "Yürürlükten kaldırılan yönetmelik",
+   "dosya": "madde-004.md",
+   "son_degisiklik": "yayımdan beri değişiklik notu yok",
+   "metin": "(1) 6/3/2007 tarihli ve 26454 sayılı Resmî Gazete’de yayımlanan Deprem Bölgelerinde Yapılacak Binalar Hakkında Yönetmelik yürürlükten kaldırılmıştır."
+  },
+  {
+   "dipnot": [],
+   "tablo": false,
+   "etiket": "MADDE 5",
+   "baslik": "Yürürlük",
+   "dosya": "madde-005.md",
+   "son_degisiklik": "yayımdan beri değişiklik notu yok",
+   "metin": "(1) Bu Yönetmelik 1/1/2019 tarihinde yürürlüğe girer."
+  },
+  {
+   "dipnot": [],
+   "tablo": false,
+   "etiket": "MADDE 6",
+   "baslik": "Yürütme",
+   "dosya": "madde-006.md",
+   "son_degisiklik": "yayımdan beri değişiklik notu yok",
+   "metin": "(1) Bu Yönetmelik hükümlerini Afet ve Acil Durum Yönetimi Başkanlığının bağlı olduğu Bakan yürütür. Ekleri için tıklayınız"
+  }
+ ]
+}

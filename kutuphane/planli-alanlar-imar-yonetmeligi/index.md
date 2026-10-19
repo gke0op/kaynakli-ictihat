@@ -1,0 +1,83 @@
+# Planlı Alanlar İmar Yönetmeliği
+
+Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026). Madde madde, kelimesi kelimesine. En son değişiklik notu: **RG 1/7/2026-33297** · derlendi: 19.10.2026
+
+- [MADDE 1 — Amaç](madde-001.md) · yayımdan beri değişiklik notu yok
+- [MADDE 2 — Kapsam](madde-002.md) · yayımdan beri değişiklik notu yok
+- [MADDE 3 — Dayanak](madde-003.md) · RG 18/8/2022-31927
+- [MADDE 4 — Tanımlar](madde-004.md) · RG 1/7/2026-33297
+- [MADDE 5 — Genel İlkeler](madde-005.md) · RG 1/7/2026-33297
+- [MADDE 6 — Parsel büyüklükleri](madde-006.md) · RG 12/5/2023-32188
+- [MADDE 7 — İfraz ve tevhit](madde-007.md) · RG 1/3/2019-30701
+- [MADDE 8 — Parsele ilişkin hükümler](madde-008.md) · RG 25/7/2019-30842
+- [MADDE 9 — Yol genişliklerine göre bina kat adetleri](madde-009.md) · RG 25/7/2019-30842
+- [MADDE 10 — Binalara kot verilmesine ilişkin esaslar](madde-010.md) · yayımdan beri değişiklik notu yok
+- [MADDE 11 — Yoldan kotlandırma](madde-011.md) · RG 28/7/2018-30492
+- [MADDE 12 — Tabii zeminden kotlandırma](madde-012.md) · yayımdan beri değişiklik notu yok
+- [MADDE 13 — Köşe başı parsellerde kotlandırma](madde-013.md) · yayımdan beri değişiklik notu yok
+- [MADDE 14 — İki yola bakan ara parsellerde kotlandırma](madde-014.md) · yayımdan beri değişiklik notu yok
+- [MADDE 15 — Bahçe tesviyelerine ilişkin esaslar](madde-015.md) · yayımdan beri değişiklik notu yok
+- [MADDE 16 — Ön bahçelerin tesviyesi](madde-016.md) · yayımdan beri değişiklik notu yok
+- [MADDE 17 — Yan bahçelerin tesviyesi](madde-017.md) · yayımdan beri değişiklik notu yok
+- [MADDE 18 — Arka bahçelerin tesviyesi](madde-018.md) · yayımdan beri değişiklik notu yok
+- [MADDE 19 — Parsel kullanım fonksiyonlarına göre yapılaşma koşulları](madde-019.md) · RG 13/8/2025-32985
+- [MADDE 20 — Taban alanı](madde-020.md) · RG 13/8/2025-32985
+- [MADDE 21 — Katlar alanı](madde-021.md) · yayımdan beri değişiklik notu yok
+- [MADDE 22 — Katlar alanı hesabına dâhil edilmeyen kullanımlar](madde-022.md) · RG 1/7/2026-33297
+- [MADDE 23 — Bahçe mesafeleri](madde-023.md) · RG 14/1/2026-33137
+- [MADDE 24 — Bir parselde birden fazla bina yapılması](madde-024.md) · yayımdan beri değişiklik notu yok
+- [MADDE 25 — Eksik katlı bina yapılması](madde-025.md) · yayımdan beri değişiklik notu yok
+- [MADDE 26 — Yapılaşmada idarenin yükümlülükleri](madde-026.md) · RG 13/8/2025-32985
+- [MADDE 27 — Yapı ünite fonksiyonlarına göre yapılaşma koşulları](madde-027.md) · RG 11/3/2025-32838
+- [MADDE 28 — Kat yükseklikleri](madde-028.md) · RG 12/8/2023-32277
+- [MADDE 29 — Yapı piyesleri ve ölçüleri](madde-029.md) · RG 13/8/2025-32985
+- [MADDE 30 — Bina girişleri ve rampaları](madde-030.md) · yayımdan beri değişiklik notu yok
+- [MADDE 31 — Merdivenler](madde-031.md) · yayımdan beri değişiklik notu yok
+- [MADDE 32 — Işıklıklar ve hava bacaları](madde-032.md) · yayımdan beri değişiklik notu yok
+- [MADDE 33 — Bacalar](madde-033.md) · yayımdan beri değişiklik notu yok
+- [MADDE 34 — Asansörler](madde-034.md) · RG 1/7/2026-33297
+- [MADDE 35 — Akaryakıt servis istasyonları](madde-035.md) · yayımdan beri değişiklik notu yok
+- [MADDE 36 — Su depoları](madde-036.md) · yayımdan beri değişiklik notu yok
+- [MADDE 37 — Fosseptikler](madde-037.md) · yayımdan beri değişiklik notu yok
+- [MADDE 38 — Korkuluklar](madde-038.md) · yayımdan beri değişiklik notu yok
+- [MADDE 39 — Kapı ve pencereler](madde-039.md) · RG 13/8/2025-32985
+- [MADDE 40 — Çatılar](madde-040.md) · RG 25/2/2022-31761
+- [MADDE 41 — Çıkmalar](madde-041.md) · RG 30/9/2017-30196
+- [MADDE 42 — Saçaklar](madde-042.md) · yayımdan beri değişiklik notu yok
+- [MADDE 43 — Bahçe duvarları](madde-043.md) · RG 23/1/2021-31373
+- [MADDE 44 — Kapıcı dairesi, bekçi odası ve kontrol kulübeleri](madde-044.md) · yayımdan beri değişiklik notu yok
+- [MADDE 45 — Portikler](madde-045.md) · yayımdan beri değişiklik notu yok
+- [MADDE 46 — Fırınlar](madde-046.md) · yayımdan beri değişiklik notu yok
+- [MADDE 47 — Pasajlar ve alışveriş merkezleri](madde-047.md) · yayımdan beri değişiklik notu yok
+- [MADDE 48 — Tuvaletler](madde-048.md) · yayımdan beri değişiklik notu yok
+- [MADDE 49 — Çay ocakları](madde-049.md) · yayımdan beri değişiklik notu yok
+- [MADDE 50 — Yığma, ahşap ve kâgir yapılarda aranan şartlar](madde-050.md) · yayımdan beri değişiklik notu yok
+- [MADDE 51 — Bodrumlar](madde-051.md) · yayımdan beri değişiklik notu yok
+- [MADDE 52](madde-052.md) · yayımdan beri değişiklik notu yok
+- [MADDE 53 — Mescitler](madde-053.md) · yayımdan beri değişiklik notu yok
+- [MADDE 54](madde-054.md) · RG 1/7/2026-33297
+- [MADDE 55 — Yapı ruhsatı işlemleri](madde-055.md) · RG 13/8/2025-32985
+- [MADDE 56 — Kamu alanlarında yapılacak yapılarda ruhsat](madde-056.md) · RG 1/3/2019-30701
+- [MADDE 57 — Yapı projeleri](madde-057.md) · RG 14/1/2026-33137
+- [MADDE 57/A — Binalarda tasarruf tedbirleri ve iklim değişikliğine dair ilkeler](madde-57-A.md) · RG 11/3/2025-32838
+- [MADDE 58 — Esaslı tadilat](madde-058.md) · yayımdan beri değişiklik notu yok
+- [MADDE 59 — Yapı ruhsatı gerekmeyen inşai faaliyetler](madde-059.md) · RG 1/7/2026-33297
+- [MADDE 60 — İstinat duvarları](madde-060.md) · yayımdan beri değişiklik notu yok
+- [MADDE 61 — Muvakkat yapı](madde-061.md) · yayımdan beri değişiklik notu yok
+- [MADDE 62 — Elektronik haberleşme istasyonları](madde-062.md) · RG 11/7/2021-31538
+- [MADDE 63 — Şantiye binaları](madde-063.md) · yayımdan beri değişiklik notu yok
+- [MADDE 64](madde-064.md) · RG 27/12/2019-30991
+- [MADDE 65 — Yapı kullanma izinlerinde başvuru sahibinden bilgi ve belge istenmesine ilişkin esaslar](madde-065.md) · yayımdan beri değişiklik notu yok
+- [MADDE 66](madde-066.md) · RG 12/5/2023-32188
+- [MADDE 67](madde-067.md) · yayımdan beri değişiklik notu yok
+- [MADDE 68 — Fenni mesuliyet](madde-068.md) · RG 1/8/2021-31555
+- [MADDE 69](madde-069.md) · RG 11/7/2021-31538
+- [MADDE 70 — Yürürlükten kaldırılan yönetmelik](madde-070.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 1 — Bakanlık denetçilerinin yetkilendirilmesi ve özellikleri](madde-geçi̇ci̇-1.md) · yayımdan beri değişiklik notu yok
+- [GEÇİCİ MADDE 2 — Mevcut teşekkül](madde-geçi̇ci̇-2.md) · RG 1/7/2026-33297
+- [GEÇİCİ MADDE 4 — Mevcut haberleşme istasyonları](madde-geçi̇ci̇-4.md) · RG 11/7/2021-31538
+- [GEÇİCİ MADDE 5 — Ticaret + Konut kullanımlı yapılaşmış parsellerde kullanım oranı](madde-geçi̇ci̇-5.md) · RG 18/8/2022-31927
+- [GEÇİCİ MADDE 6 — Ofis/büro kullanım amaçlı bağımsız bölümlerde tadilat](madde-geçi̇ci̇-6.md) · RG 12/8/2023-32277
+- [GEÇİCİ MADDE 7 — Ofis/büro kullanım amaçlı bağımsız bölümlerde tadilat](madde-geçi̇ci̇-7.md) · RG 1/7/2026-33297
+- [MADDE 71 — Yürürlük](madde-071.md) · yayımdan beri değişiklik notu yok
+- [MADDE 72 — Yürütme](madde-072.md) · RG 18/8/2022-31927

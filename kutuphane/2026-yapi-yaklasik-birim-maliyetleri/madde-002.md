@@ -1,0 +1,11 @@
+# 2026 Yılı Yapı Yaklaşık Birim Maliyetleri Hakkında Tebliğ — MADDE 2 · Yapının mimarlık hizmetlerine esas olan sınıfının belirlenmesine ilişkin açıklamalar
+
+> Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `8ebca5820f72b66c…` · Bu maddedeki son değişiklik notu: yayımdan beri değişiklik notu yok
+
+(1) Benzer yapılar, ilgili gruptaki yapılara kıyasen uygulayıcı kurum ve kuruluşlarca Mimarlık ve Mühendislik Hizmetleri Şartnamesinin ilgili hükümlerinden yararlanılarak belirlenecektir.
+
+(2) Tebliğin revizyonu çalışmalarında yapı sınıfı ve/veya grubu değiştirilen veya tebliğden çıkarılan yapılar için, 2026 yılından önceki tebliğlere göre yapı sınıfı ve grubu belirlenmiş mimarlık ve mühendislik hizmetlerinde; belirlendiği yılın tebliğindeki yapı sınıfı ve grubu değiştirilmeksizin 2026 yılı tebliğinde karşılığı olan tutar esas alınmak suretiyle hesap yapılacaktır.
+
+(3) Bu Tebliğde bulunmayan veya bu Tebliğde olmasına rağmen sınıfı ve/veya grubu hakkında tereddüte düşülen yapıların, yapı sınıfı ve grubu belirlenirken; proje üzerinden hesaplanacak imalat miktarlarının (metrajlarının), Çevre, Şehircilik ve İklim Değişikliği Bakanlığınca yayımlanan birim fiyatlarla çarpılması sonucu tespit edilecek yapı yaklaşık maliyetinin, yapının toplam inşaat alanına bölünmesi ile hesaplanacak birim maliyeti (TL/m²); bu Tebliğde yer alan yapı sınıf ve gruplarına ait birim maliyetlerden hangisine yakın ise o yapı sınıf ve grubu dikkate alınarak tespit edilir. Projede yer alan imalatlardan, Çevre, Şehircilik ve İklim Değişikliği Bakanlığınca yayımlanan birim fiyatlar içerisinde bulunmayan imalatların birim fiyatları öncelikle; ilgisine göre diğer kamu idarelerince yayımlanan birim fiyatlar dikkate alınarak, bunların dışında kalan imalatlar ise piyasa fiyatları esas alınarak belirlenir.
+
+(4) Bu Tebliğde yer alan yapıların birim metrekare maliyetleri, ortalama nitelikli yapı malzemeleri dikkate alınarak belirlenmektedir. Ayrıca, bu Tebliğdeki yapı yaklaşık birim maliyetlerinin tespitinde; yapının bulunduğu arsa bedeli, çevre düzenlemesi (peyzaj, bahçe sulama, yağmur suyu drenaj, çevre aydınlatma, ihata duvarları, ada içi yollar ve benzeri), altyapı (zemin iyileştirme, bina dışı; elektrik, içme suyu, doğalgaz, kanalizasyon, internet, haberleşme ve benzeri) giderleri dâhil edilmemektedir.

@@ -1,0 +1,92 @@
+# 634 sayılı Kat Mülkiyeti Kanunu
+
+Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026). Madde madde, kelimesi kelimesine. En son değişiklik notu: **7/5/2026 tarihli ve 7579 sayılı Kanun** · derlendi: 19.10.2026
+
+- [MADDE 1](madde-001.md) · yayımdan beri değişiklik notu yok
+- [MADDE 2](madde-002.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [MADDE 3](madde-003.md) · 23/6/2009 tarihli ve 5912 sayılı Kanun
+- [MADDE 4](madde-004.md) · yayımdan beri değişiklik notu yok
+- [MADDE 5](madde-005.md) · yayımdan beri değişiklik notu yok
+- [MADDE 6](madde-006.md) · yayımdan beri değişiklik notu yok
+- [MADDE 7](madde-007.md) · yayımdan beri değişiklik notu yok
+- [MADDE 8](madde-008.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [MADDE 9](madde-009.md) · yayımdan beri değişiklik notu yok
+- [MADDE 10](madde-010.md) · 9/6/2021 tarihli ve 7327 sayılı Kanun
+- [MADDE 11](madde-011.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 12](madde-012.md) · 15/2/2018 tarihli ve 7099 sayılı Kanun
+- [MADDE 13](madde-013.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 14](madde-014.md) · 9/6/2021 tarihli ve 7327 sayılı Kanun
+- [MADDE 15](madde-015.md) · yayımdan beri değişiklik notu yok
+- [MADDE 16](madde-016.md) · yayımdan beri değişiklik notu yok
+- [MADDE 17](madde-017.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [MADDE 18](madde-018.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 19](madde-019.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 20](madde-020.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [MADDE 21](madde-021.md) · yayımdan beri değişiklik notu yok
+- [MADDE 22](madde-022.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 23](madde-023.md) · yayımdan beri değişiklik notu yok
+- [MADDE 24](madde-024.md) · 13/2/2011 tarihli ve 6111 sayılı Kanun
+- [MADDE 25](madde-025.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 26](madde-026.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 27](madde-027.md) · yayımdan beri değişiklik notu yok
+- [MADDE 28](madde-028.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [MADDE 29](madde-029.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 30](madde-030.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 31](madde-031.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 32](madde-032.md) · yayımdan beri değişiklik notu yok
+- [MADDE 33](madde-033.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 34](madde-034.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 35](madde-035.md) · 4/4/2015 tarihli ve 6645 sayılı Kanun
+- [MADDE 36](madde-036.md) · yayımdan beri değişiklik notu yok
+- [MADDE 37](madde-037.md) · 7/5/2026 tarihli ve 7579 sayılı Kanun
+- [MADDE 38](madde-038.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 39](madde-039.md) · yayımdan beri değişiklik notu yok
+- [MADDE 40](madde-040.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [MADDE 41](madde-041.md) · yayımdan beri değişiklik notu yok
+- [MADDE 42](madde-042.md) · 18/4/2007 tarihli ve 5627 sayılı Kanun
+- [MADDE 43](madde-043.md) · yayımdan beri değişiklik notu yok
+- [MADDE 44](madde-044.md) · yayımdan beri değişiklik notu yok
+- [MADDE 45](madde-045.md) · yayımdan beri değişiklik notu yok
+- [MADDE 46](madde-046.md) · yayımdan beri değişiklik notu yok
+- [MADDE 47](madde-047.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 48](madde-048.md) · yayımdan beri değişiklik notu yok
+- [MADDE 49](madde-049.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [MADDE 50](madde-050.md) · yayımdan beri değişiklik notu yok
+- [MADDE 51](madde-051.md) · 30/4/1969 tarihli ve 1166 sayılı Kanun
+- [MADDE 52](madde-052.md) · yayımdan beri değişiklik notu yok
+- [MADDE 53](madde-053.md) · yayımdan beri değişiklik notu yok
+- [MADDE 54](madde-054.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 55](madde-055.md) · yayımdan beri değişiklik notu yok
+- [MADDE 56](madde-056.md) · yayımdan beri değişiklik notu yok
+- [MADDE 57 — Devre Mülk Hakkı](madde-057.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 58](madde-058.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 59](madde-059.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 60 — kullanımını başkalarına bırakabilir.11](madde-060.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 61](madde-061.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 62](madde-062.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 63](madde-063.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 64](madde-064.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 65](madde-065.md) · 10/6/1985 tarihli ve 3227 sayılı Kanun
+- [MADDE 66 — Kapsam](madde-066.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 67 — Ortak yerler](madde-067.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 68 — Vaziyet plân ve projeleri](madde-068.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 69 — Yönetim](madde-069.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 70 — Yönetim plânı ve değiştirilmesi](madde-070.md) · 7/5/2026 tarihli ve 7579 sayılı Kanun
+- [MADDE 71 — Yönetici ve denetçi atama](madde-071.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 72 — Ortak giderlere katılma](madde-072.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 73 — Geçici yönetim](madde-073.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [MADDE 74 — Uygulanacak diğer hükümler](madde-074.md) · 14/11/2007 tarihli ve 5711 sayılı Kanun
+- [EK MADDE 1](madde-ek-1.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [EK MADDE 2](madde-ek-2.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [EK MADDE 3](madde-ek-3.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [EK MADDE 4](madde-ek-4.md) · 13/4/1983 tarihli ve 2814 sayılı Kanun
+- [EK MADDE 5 — Hatalı blok veya bağımsız bölüm numaralarının düzeltilmesi](madde-ek-5.md) · 4/7/2019 tarihli ve 7181 sayılı Kanun
+- [GEÇİCİ MADDE 1](madde-geçi̇ci̇-1.md) · 9/6/2021 tarihli ve 7327 sayılı Kanun
+- [GEÇİCİ MADDE 2](madde-geçi̇ci̇-2.md) · 23/6/2009 tarihli ve 5912 sayılı Kanun
+- [MADDE 75 — F) Yürürlük tarihi:1012](madde-075.md) · yayımdan beri değişiklik notu yok
+- [MADDE 76 — G) Yürütme makamı:1012](madde-076.md) · yayımdan beri değişiklik notu yok
+- [İşlenemeyen hüküm · 13/4/1983 tarihli ve 2814 sayılı Kanunun geçici maddeleri · GEÇİCİ MADDE 1](islenemeyen-madde-geçi̇ci̇-1.md) · yayımdan beri değişiklik notu yok
+- [İşlenemeyen hüküm · 13/4/1983 tarihli ve 2814 sayılı Kanunun geçici maddeleri · GEÇİCİ MADDE 2](islenemeyen-madde-geçi̇ci̇-2.md) · yayımdan beri değişiklik notu yok
+- [İşlenemeyen hüküm · 14/11/2007 tarihli ve 5711 sayılı Kanunun geçici maddeleri · GEÇİCİ MADDE 1](islenemeyen-madde-geçi̇ci̇-1-2.md) · yayımdan beri değişiklik notu yok
+- [İşlenemeyen hüküm · 14/11/2007 tarihli ve 5711 sayılı Kanunun geçici maddeleri · GEÇİCİ MADDE 2](islenemeyen-madde-geçi̇ci̇-2-2.md) · yayımdan beri değişiklik notu yok
+- [İşlenemeyen hüküm · 14/11/2007 tarihli ve 5711 sayılı Kanunun geçici maddeleri · GEÇİCİ MADDE 3](islenemeyen-madde-geçi̇ci̇-3.md) · yayımdan beri değişiklik notu yok

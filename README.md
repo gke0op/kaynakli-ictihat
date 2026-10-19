@@ -8,6 +8,10 @@ denetler ve karar metnini **birebir** getirir. Karar her zaman insanındır.
 
 Kurulum gerektirmeyen tek mesaj: ChatGPT, Claude, Gemini ve diğerlerinde her bilgiyi **[BELGE] / [KAYNAK] / [HAFIZA]** diye etiketletir. → [ozenli-mod.md](ozenli-mod.md)
 
+## Müteahhit kütüphanesi
+
+İmar, yapı, iş güvenliği, ihale ve kentsel dönüşüm mevzuatı (17 belge), madde madde ve kelimesi kelimesine, son değişiklik notlarıyla → [kutuphane/](kutuphane/README.md)
+
 ## Nasıl kullanılır
 
 Hukukçu hiçbir şey kurmaz. [`kaynakli-ictihat.md`](kaynakli-ictihat.md) dosyasını Claude'a ekler ve

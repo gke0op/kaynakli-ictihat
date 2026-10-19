@@ -1,0 +1,5 @@
+# 4734 sayılı Kamu İhale Kanunu — MADDE 42 · Sözleşmeye davet
+
+> Kaynak: mevzuat.gov.tr kaynaklı resmî PDF (kullanıcı tarafından sağlandı, 19.10.2026), SHA-256 `9a681bfafa755dbb…` · Bu maddedeki son değişiklik notu: 20/11/2008 tarihli ve 5812 sayılı Kanun
+
+(Değişik birinci fıkra: 20/11/2008-5812/15 md.) 41 inci maddede belirtilen sürelerin bitimini, ön mali kontrol yapılması gereken hallerde ise bu kontrolün tamamlandığı tarihi izleyen günden itibaren üç gün içinde ihale üzerinde bırakılan istekliye, tebliğ tarihini izleyen on gün içinde kesin teminatı vermek suretiyle sözleşmeyi imzalaması hususu bildirilir. Yabancı istekliler için bu süreye oniki gün ilave edilir. Sözleşmenin imzalanacağı tarihte, ihale sonuç bilgileri Kuruma gönderilmek suretiyle ihale üzerinde kalan isteklinin ihalelere katılmaktan yasaklı olup olmadığının teyit edilmesi zorunludur. 43 üncü madde hükmü gereğince sözleşmeden önce kesin teminat alınmayan danışmanlık hizmet ihalelerinde sözleşmeye davet ise, kesin teminat istenilmeksizin birinci fıkra hükümlerine göre yapılır.

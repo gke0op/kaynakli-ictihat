@@ -1,0 +1,55 @@
+# Yapım İşleri Genel Şartnamesi
+
+Kaynak: mevzuat.gov.tr'deki resmî ek dosyasının PDF'e çevrilmiş hâli (kullanıcı tarafından sağlandı, 19.10.2026). Madde madde, kelimesi kelimesine. En son değişiklik notu: **RG 30/7/2025-32971** · derlendi: 19.10.2026
+
+- [MADDE 1 — Amaç](madde-001.md) · yayımdan beri değişiklik notu yok
+- [MADDE 2 — Kapsam](madde-002.md) · RG 30/7/2025-32971
+- [MADDE 3 — Başlıklar ve yorum](madde-003.md) · yayımdan beri değişiklik notu yok
+- [MADDE 4 — Tanımlar](madde-004.md) · RG 30/7/2025-32971
+- [MADDE 5 — Bildirimler, olurlar, onaylar, belgeler ve tespitler](madde-005.md) · yayımdan beri değişiklik notu yok
+- [MADDE 6 — İşyerinin yükleniciye teslimi](madde-006.md) · RG 30/7/2025-32971
+- [MADDE 7 — Yüklenicinin kendi ihtiyacı için kullanacağı yerler](madde-007.md) · yayımdan beri değişiklik notu yok
+- [MADDE 8 — Malzeme ocakları](madde-008.md) · yayımdan beri değişiklik notu yok
+- [MADDE 9 — İş ve işyerlerinin korunması ve sigortalanması](madde-009.md) · RG 30/7/2025-32971
+- [MADDE 10 — İşyerlerinin temizlenmesi ve tesislerin kaldırılması](madde-010.md) · yayımdan beri değişiklik notu yok
+- [MADDE 11 — Uygulama projelerinin hazırlanması ve teslimi](madde-011.md) · yayımdan beri değişiklik notu yok
+- [MADDE 12 — Projelerin uygulanması](madde-012.md) · RG 30/7/2025-32971
+- [MADDE 13](madde-013.md) · yayımdan beri değişiklik notu yok
+- [MADDE 14 — İşlerin denetimi](madde-014.md) · yayımdan beri değişiklik notu yok
+- [MADDE 15 — Yapı denetim görevlisinin yetkileri](madde-015.md) · RG 13/12/2017-30269
+- [MADDE 16 — Yapı denetim görevlisi için gerekli binaların yapılması](madde-016.md) · yayımdan beri değişiklik notu yok
+- [MADDE 17 — İş programı](madde-017.md) · RG 30/7/2025-32971
+- [MADDE 18 — Yüklenicinin iş başında bulunması](madde-018.md) · yayımdan beri değişiklik notu yok
+- [MADDE 19 — İşin yürütülmesi için gerekli personel ve araçlar](madde-019.md) · RG 30/7/2025-32971
+- [MADDE 20 — Alt yüklenicilerin çalıştırılması ve sorumlulukları](madde-020.md) · RG 16/7/2011-27996
+- [MADDE 21 — Sözleşme kapsamında yaptırılabilecek ilave işler, iş eksilişi ve işin tasfiyesi](madde-021.md) · RG 30/7/2025-32971
+- [MADDE 22 — 18.08.2019)](madde-022.md) · RG 30/7/2025-32971
+- [MADDE 23 — Sözleşme ve eklerine uymayan işler](madde-023.md) · yayımdan beri değişiklik notu yok
+- [MADDE 24 — Hatalı, kusurlu ve eksik işler](madde-024.md) · yayımdan beri değişiklik notu yok
+- [MADDE 25 — Yüklenicinin bakım ve düzeltme sorumlulukları](madde-025.md) · yayımdan beri değişiklik notu yok
+- [MADDE 26 — Yüklenicinin kusuru dışındaki hasar ve zararlar](madde-026.md) · yayımdan beri değişiklik notu yok
+- [MADDE 27 — Yükleniciye ait giderler](madde-027.md) · yayımdan beri değişiklik notu yok
+- [MADDE 28 — Ataşmanlar ve ilgili diğer defterler](madde-028.md) · yayımdan beri değişiklik notu yok
+- [MADDE 29 — İşin süresi ve sürenin uzatılması](madde-029.md) · RG 30/7/2025-32971
+- [MADDE 30 — yürürlüğe girer.)](madde-030.md) · RG 30/7/2025-32971
+- [MADDE 31 — Mevcut yapıların yıkılması](madde-031.md) · RG 30/7/2025-32971
+- [MADDE 32 — Kazı ve yıkmalarda bulunan değerli eşya](madde-032.md) · yayımdan beri değişiklik notu yok
+- [MADDE 33 — Kazılardan veya devlete ait yıkmalardan çıkarılan malzeme](madde-033.md) · yayımdan beri değişiklik notu yok
+- [MADDE 34 — Çalışanların hakları ve çalışma şartları](madde-034.md) · yayımdan beri değişiklik notu yok
+- [MADDE 35 — Çalışanların sağlık ve güvenliğine ilişkin tedbirler](madde-035.md) · RG 27/4/2016-29696
+- [MADDE 36 — Çalışanların kazaya uğramaları](madde-036.md) · yayımdan beri değişiklik notu yok
+- [MADDE 37](madde-037.md) · yayımdan beri değişiklik notu yok
+- [MADDE 38 — Yüklenicinin çalıştırdığı kişilerin uygunsuzlukları](madde-038.md) · yayımdan beri değişiklik notu yok
+- [MADDE 39 — Geçici hakediş raporları](madde-039.md) · RG 30/7/2025-32971
+- [MADDE 40 — Kesin hakediş raporu ve hesap kesilmesi](madde-040.md) · RG 30/7/2025-32971
+- [MADDE 41 — Geçici kabul](madde-041.md) · RG 16/7/2011-27996
+- [MADDE 42 — Teminat süresi](madde-042.md) · yayımdan beri değişiklik notu yok
+- [MADDE 43 — Teminat süresindeki bakım ve giderler](madde-043.md) · yayımdan beri değişiklik notu yok
+- [MADDE 44 — Kesin kabul](madde-044.md) · yayımdan beri değişiklik notu yok
+- [MADDE 45 — Kesin teminatın iadesine ait şartlar](madde-045.md) · yayımdan beri değişiklik notu yok
+- [MADDE 46 — Sözleşmenin devri](madde-046.md) · yayımdan beri değişiklik notu yok
+- [MADDE 47 — Sözleşmenin feshi ve tasfiye durumları](madde-047.md) · RG 30/7/2025-32971
+- [MADDE 48 — Sözleşmenin feshi halinde yüklenicinin mallarının satın alınması](madde-048.md) · RG 30/7/2025-32971
+- [MADDE 49 — Yüklenicinin ölümü, iflası, ağır hastalığı, tutukluluğu veya mahkumiyeti](madde-049.md) · yayımdan beri değişiklik notu yok
+- [MADDE 50](madde-050.md) · RG 30/7/2025-32971
+- [MADDE 51 — Anlaşmazlıkların çözümü](madde-051.md) · yayımdan beri değişiklik notu yok

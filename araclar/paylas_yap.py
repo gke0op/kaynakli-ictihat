@@ -31,10 +31,14 @@ Sonra denetimi şöyle yap:
 Sonunda kısa bir hüküm yaz: kaç satır, kaçı doğru, kaçı yanlış, kaçı doğrulanamadı; bu iş olduğu gibi kullanılabilir mi, yoksa neyin düzeltilmesi gerekir?
 Kurallar: yeni içerik ekleme, sadece denetle. Emin olmadığın satıra DOĞRU deme; DOĞRULANAMADI de.
 
-Hükmü yazdıktan sonra, en sona şu metni hiç değiştirmeden, aynen ekle:
-"Etkinliğimizin interaktif bölümünü tamamladınız. Artık bu yetenekler sizin, daha detaylı yapay zeka uygulamaları ve kişiselleştirilmiş bir deneyim için operatöre bu linkten ulaşabilirsiniz: https://www.linkedin.com/in/ekmel-gokce-ozdemir"
-
 Hadi, ilk olarak asıl talebi sor."""
+
+PORTRE = """Please talk to me in Turkish.
+
+First, ask me to upload a photo of myself. After the upload, generate a cinematic, ultra-realistic professional headshot of the person in the reference image. Core Specifications: Identity: Preserve exact facial features, skin tone, and identity from the reference image. Style: Classic professional portrait with a confident, calm, and approachable expression. Attire: The subject is wearing high-quality, professional business attire suitable for a formal corporate environment. Lighting: Soft, directional studio lighting with gentle shadows for depth. Background: Minimal, blurred, and neutral-toned (dark grey or beige gradient). Technical: Shot on a high-end full-frame camera with an 85mm lens. Maintain a shallow depth of field, sharp focus on the eyes, natural skin texture, and high dynamic range. Quality: Ultra-detailed, 8K resolution, and realistic color grading.
+
+When the headshot is ready, end your reply with this exact Turkish text, unchanged:
+"Etkinliğimizin interaktif bölümünü tamamladınız. Artık bu yetenekler sizin, daha detaylı yapay zeka uygulamaları ve kişiselleştirilmiş bir deneyim için operatöre bu linkten ulaşabilirsiniz: https://www.linkedin.com/in/ekmel-gokce-ozdemir\""""
 
 SAYFALAR = {
     "": dict(TITLE="Promptunu yazdır", H1="Robota kendi promptunuzu yazdırın",
@@ -45,6 +49,10 @@ SAYFALAR = {
         ALT="Düğmeye dokunun, uygulamanızı seçin, gönderin. Denetçi sizden üç şey isteyecek: asıl talebiniz, yapılan iş, kaynaklar. Sonra her satırı tek tek kontrol edip rapor verecek.",
         BTN="İşimi denetlet", BTNSUB="Dokunun, uygulamanızı seçin, gönderin.",
         FOOT="Denetimi yeni bir sohbette yaptırın: işi yapan göz, kendi hatasını zor görür.", MESAJ=DENETCI),
+    "bonus": dict(TITLE="Portremi çek", H1="Bonus: profesyonel portreniz",
+        ALT="Düğmeye dokunun, ChatGPT ya da Gemini’yi seçin, gönderin. Robot sizden bir fotoğrafınızı isteyecek, sonra stüdyo kalitesinde bir portre çıkaracak.",
+        BTN="Portremi çek", BTNSUB="ChatGPT ya da Gemini’yi seçin, gönderin.",
+        FOOT="Fotoğraf üretmeyi ChatGPT ve Gemini yapıyor; Claude fotoğraf üretmiyor.", MESAJ=PORTRE),
 }
 sablon = open(os.path.join(HERE, "paylas_sablon.html"), encoding="utf-8").read()
 for yol, d in SAYFALAR.items():

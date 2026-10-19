@@ -9,7 +9,9 @@ PROMPT = """Bana iyi bir prompt yazmamda yardım et. İnşaat sektöründe çal�
 2) Sonuç neye benzemeli, kim kullanacak? (tablo, kısa mesaj, rapor, liste)
 3) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, üslup)
 
-Niyetimi anladıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, amacı, işi adım adım, gereken bilgiyi önce kendisinin araması ve bulamazsa bana sorması, çıktının biçimi ve şu kural: "Bilmediğin bir şeyi uydurma; her sayının nereden geldiğini yaz."
+Bu, bir etkinlikte telefondan yapılan kısa bir deneme. İşi küçük tut: yazacağın prompt, tek bir sohbette birkaç dakikada biten ve metin ya da tablo olarak verilebilen bir iş istesin. İsteğim bundan büyükse (örneğin AutoCAD çizimi, pafta, büyük dosya ya da saatler sürecek bir iş) bunu bana açıkça söyle, bugün yapılabilecek en küçük ve en faydalı parçayı öner (örneğin bir kontrol listesi, tek kat için bir tablo, çizimciye verilecek yazılı tarif) ve promptu o parça için yaz.
+
+Niyetimi anladıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, amacı, işi adım adım, gereken bilgiyi önce kendisinin araması ve bulamazsa bana sorması, çıktının biçimi, kapsam sınırı (tek seferde, bu sohbette bitecek kadar; üretemediği bir dosya türü istenirse bunu söyleyip metin ya da tablo vermesi) ve şu kural: "Bilmediğin bir şeyi uydurma; her sayının nereden geldiğini yaz."
 Promptu kolayca kopyalayabileceğim tek bir blok içinde ver.
 
 İlk soruyla başla."""
@@ -29,6 +31,7 @@ Sonra denetimi şöyle yap:
 - Ayrıca işin asıl talebe uyup uymadığını kontrol et: istenen ama yapılmayan, istenmeyen ama eklenen ne var?
 
 Sonunda kısa bir hüküm yaz: kaç satır, kaçı doğru, kaçı yanlış, kaçı doğrulanamadı; bu iş olduğu gibi kullanılabilir mi, yoksa neyin düzeltilmesi gerekir?
+İş çok uzunsa önce en kritik 10 satırı denetle, kalanı için devam edeyim mi diye sor.
 Kurallar: yeni içerik ekleme, sadece denetle. Emin olmadığın satıra DOĞRU deme; DOĞRULANAMADI de.
 
 Hadi, ilk olarak asıl talebi sor."""

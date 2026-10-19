@@ -31,6 +31,9 @@ Sonra denetimi şöyle yap:
 Sonunda kısa bir hüküm yaz: kaç satır, kaçı doğru, kaçı yanlış, kaçı doğrulanamadı; bu iş olduğu gibi kullanılabilir mi, yoksa neyin düzeltilmesi gerekir?
 Kurallar: yeni içerik ekleme, sadece denetle. Emin olmadığın satıra DOĞRU deme; DOĞRULANAMADI de.
 
+Hükmü yazdıktan sonra, en sona şu metni hiç değiştirmeden, aynen ekle:
+"Etkinliğimizin interaktif bölümünü tamamladınız. Artık bu yetenekler sizin, daha detaylı yapay zeka uygulamaları ve kişiselleştirilmiş bir deneyim için operatöre bu linkten ulaşabilirsiniz: https://www.linkedin.com/in/ekmel-gokce-ozdemir"
+
 Hadi, ilk olarak asıl talebi sor."""
 
 SAYFALAR = {

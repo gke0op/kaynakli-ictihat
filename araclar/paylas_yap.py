@@ -4,13 +4,12 @@ import json, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 MESAJ = """Bana iyi bir prompt yazmamda yardım et. İnşaat sektöründe çalışıyorum.
 
-Önce bana şu soruları TEK TEK sor, her seferinde cevabımı bekle:
-1) Yapay zekâya hangi işi yaptırmak istiyorum? (örnek: hakediş kontrolü, şartname özeti, teklif karşılaştırma, şantiye raporu, resmî yazı)
-2) Sonuç neye benzemeli? (tablo, kısa mesaj, rapor, madde madde liste)
-3) Elimde hangi belgeler var? (PDF, fotoğraf, Excel)
-4) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, kim okuyacak)
+Önce niyetimi anla. Bana şu soruları TEK TEK sor, her seferinde cevabımı bekle:
+1) Ne yapmak istiyorum ve neden? (örnek: hakediş kontrolü, teklif karşılaştırma, şantiye raporu, resmî yazı)
+2) Sonuç neye benzemeli, kim kullanacak? (tablo, kısa mesaj, rapor, liste)
+3) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, üslup)
 
-Cevaplarımı aldıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, işi adım adım, belgeleri nasıl kullanacağını, çıktının biçimini ve şu kuralı: "Bilmediğin ya da belgede olmayan bir şeyi uydurma; her sayının nereden geldiğini yaz."
+Niyetimi anladıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, amacı, işi adım adım, gereken bilgiyi önce kendisinin araması ve bulamazsa bana sorması, çıktının biçimi ve şu kural: "Bilmediğin bir şeyi uydurma; her sayının nereden geldiğini yaz."
 Promptu kolayca kopyalayabileceğim tek bir blok içinde ver.
 
 İlk soruyla başla."""

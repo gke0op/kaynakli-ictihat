@@ -30,7 +30,7 @@ footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
 <body>
 <main>
 <h1>Robota kendi promptunuzu yazdırın</h1>
-<p class="alt">Düğmeye dokunun, açılan listeden uygulamanızı seçin: ChatGPT, Gemini, Claude… Mesaj sohbete hazır gelir; gönderin. Robot size işinizi soracak, sonunda size özel bir prompt yazacak.</p>
+<p class="alt">Düğmeye dokunun, açılan listeden uygulamanızı seçin: ChatGPT, Gemini, Claude… Mesaj sohbete hazır gelir; gönderin. Robot önce niyetinizi soracak, sonunda size özel bir prompt yazacak.</p>
 
 <button class="tur" id="t1" data-tur="1"><span class="ad">Promptumu yazdır</span><span class="ne">Dokunun, uygulamanızı seçin, gönderin.</span></button>
 
@@ -47,10 +47,10 @@ footer{margin-top:auto;font-size:13px;color:var(--soluk);line-height:1.4}
 </div>
 </div>
 
-<footer>Çıkan promptu yeni bir sohbete yapıştırın, belgenizi ekleyin. İşe yaradıysa robota “bunu kaydet” deyin.</footer>
+<footer>Çıkan promptu yeni bir sohbete yapıştırın, sonucu alın. İşe yaradıysa robota “bunu skill olarak kaydet” deyin.</footer>
 </main>
 <script>
-const TUR = {1: "Bana iyi bir prompt yazmamda yardım et. İnşaat sektöründe çalışıyorum.\n\nÖnce bana şu soruları TEK TEK sor, her seferinde cevabımı bekle:\n1) Yapay zekâya hangi işi yaptırmak istiyorum? (örnek: hakediş kontrolü, şartname özeti, teklif karşılaştırma, şantiye raporu, resmî yazı)\n2) Sonuç neye benzemeli? (tablo, kısa mesaj, rapor, madde madde liste)\n3) Elimde hangi belgeler var? (PDF, fotoğraf, Excel)\n4) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, kim okuyacak)\n\nCevaplarımı aldıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, işi adım adım, belgeleri nasıl kullanacağını, çıktının biçimini ve şu kuralı: \"Bilmediğin ya da belgede olmayan bir şeyi uydurma; her sayının nereden geldiğini yaz.\"\nPromptu kolayca kopyalayabileceğim tek bir blok içinde ver.\n\nİlk soruyla başla."};
+const TUR = {1: "Bana iyi bir prompt yazmamda yardım et. İnşaat sektöründe çalışıyorum.\n\nÖnce niyetimi anla. Bana şu soruları TEK TEK sor, her seferinde cevabımı bekle:\n1) Ne yapmak istiyorum ve neden? (örnek: hakediş kontrolü, teklif karşılaştırma, şantiye raporu, resmî yazı)\n2) Sonuç neye benzemeli, kim kullanacak? (tablo, kısa mesaj, rapor, liste)\n3) Nelere dikkat edilmeli? (yönetmelik, süre, bütçe, üslup)\n\nNiyetimi anladıktan sonra, yeni bir sohbete yapıştıracağım TEK PARÇA bir prompt yaz. Prompt şunları söylesin: rolü, amacı, işi adım adım, gereken bilgiyi önce kendisinin araması ve bulamazsa bana sorması, çıktının biçimi ve şu kural: \"Bilmediğin bir şeyi uydurma; her sayının nereden geldiğini yaz.\"\nPromptu kolayca kopyalayabileceğim tek bir blok içinde ver.\n\nİlk soruyla başla."};
 let secili = 1;
 const durum = document.getElementById("durum"), yedek = document.getElementById("yedek");
 function yedekGoster(n, baslik){

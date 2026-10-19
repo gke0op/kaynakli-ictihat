@@ -66,7 +66,7 @@ Soru: Planlı Alanlar İmar Yönetmeliği'ne göre konutta ortak merdivenin rıh
 
 ## Kendi işinizde
 
-Kendi sorunuzu sorun. Şartname, sözleşme ya da yönetmelik PDF'ini ekleyip *"yalnız bu belgeye dayan"* deyin; cevap **[BELGE]** etiketiyle gelsin. Müteahhidin sık baktığı mevzuat, madde madde ve tarihli olarak: [kutuphane/](kutuphane/)
+Kendi sorunuzu sorun. Şartname, sözleşme ya da yönetmelik PDF'ini ekleyip *"yalnız bu belgeye dayan"* deyin; cevap **[BELGE]** etiketiyle gelsin.
 
 ---
 Bu sayfa *Düz Konuşursanız* sunumunun parçasıdır · Ekmel Gökçe Özdemir ve Claude Opus · 2026

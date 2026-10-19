@@ -51,9 +51,21 @@ SAYFALAR = {
         BTN="Portremi çek", BTNSUB="ChatGPT ya da Gemini’yi seçin, gönderin.",
         FOOT="Fotoğraf üretmeyi ChatGPT ve Gemini yapıyor; Claude fotoğraf üretmiyor.", MESAJ=PORTRE),
 }
+SAYFALAR["evde"] = dict(TITLE="Evde deneyin", H1="Evde, kendi işinizle",
+    ALT="Acele etmeden, kendi işinizle deneyin. Bir düğmeye dokunun, uygulamanızı seçin, gönderin.",
+    BTN="", BTNSUB="", FOOT="Daha fazlası ve kişiselleştirilmiş çalışma için: <a href=\"https://www.linkedin.com/in/ekmel-gokce-ozdemir\" style=\"color:inherit\">Ekmel Gökçe Özdemir · LinkedIn</a>",
+    MESAJ=PROMPT, COK=[("Promptumu yazdır", "Robot niyetinizi sorar, size özel prompt yazar.", PROMPT),
+                       ("İşimi denetlet", "İşi ekleyin; soru sormadan satır satır kontrol eder.", DENETCI),
+                       ("Portremi çek", "ChatGPT ya da Gemini ile; fotoğrafınızı yükleyin.", PORTRE)])
 sablon = open(os.path.join(HERE, "paylas_sablon.html"), encoding="utf-8").read()
 for yol, d in SAYFALAR.items():
     html = sablon
+    if "COK" in d:
+        dugme = re.search(r'<button class="tur" id="t1".*?</button>', html, re.S).group(0)
+        yeni = "\n".join(f'<button class="tur" id="t{i}" data-tur="{i}"><span class="ad">{a}</span><span class="ne">{n}</span></button>' for i, (a, n, _) in enumerate(d["COK"], 1))
+        html = html.replace(dugme, yeni)
+        html = html.replace("const TUR = {1: __MESAJ__};", "const TUR = {" + ", ".join(f"{i}: {json.dumps(m, ensure_ascii=False)}" for i, (_, _, m) in enumerate(d["COK"], 1)) + "};")
+        d = {k: v for k, v in d.items() if k != "COK"}
     for k, v in d.items():
         html = html.replace("__" + k + "__", json.dumps(v, ensure_ascii=False) if k == "MESAJ" else v)
     assert "__" not in re.sub(r"__(?![A-Z])", "", html) or "__MESAJ__" not in html

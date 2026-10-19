@@ -4,6 +4,10 @@ Yapay zekâ sohbet araçları Yargıtay künyesi uydurabiliyor: esas/karar numar
 gerçek gibi görünür ama kayıtlarda yoktur. Bu araç künyeyi **modelin hafızasından değil, koddan**
 denetler ve karar metnini **birebir** getirir. Karar her zaman insanındır.
 
+## Herkes için: özenli mod
+
+Kurulum gerektirmeyen tek mesaj: ChatGPT, Claude, Gemini ve diğerlerinde her bilgiyi **[BELGE] / [KAYNAK] / [HAFIZA]** diye etiketletir. → [ozenli-mod.md](ozenli-mod.md)
+
 ## Nasıl kullanılır
 
 Hukukçu hiçbir şey kurmaz. [`kaynakli-ictihat.md`](kaynakli-ictihat.md) dosyasını Claude'a ekler ve
